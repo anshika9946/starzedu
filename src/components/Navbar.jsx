@@ -140,7 +140,7 @@ const Navbar = () => {
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/service">
-              Services
+              Courses
             </NavLink>
           </li>
           <li>
