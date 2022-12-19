@@ -11,7 +11,8 @@ const GetStarted = () => {
         <div className="grid grid-two-column">
           <div>
             <h3>Ready to get started?</h3>
-            <h3>Talk to us today</h3>
+            <br/>
+            <h3>Book a demo today!</h3>
           </div>
 
           <div className="contact-short-btn">
@@ -32,12 +33,15 @@ const Wrapper = styled.section`
     padding: 5rem 10rem;
     background-color: ${({ theme }) => theme.colors.bg};
     border-radius: 1rem;
+   
     box-shadow: ${({ theme }) => theme.colors.shadowSupport};
     transform: translateY(50%);
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(0,0,0,0.19);
   }
   .contact-short-btn {
     justify-self: end;
     align-self: center;
+    
   }
 
   
