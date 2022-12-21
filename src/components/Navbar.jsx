@@ -10,6 +10,7 @@ const Navbar = () => {
     .navbar-list {
       display: flex;
       gap: 4.8rem;
+      
 
       li {
         list-style: none;
@@ -141,6 +142,14 @@ const Navbar = () => {
               onClick={() => setOpenMenu(false)}
               to="/service">
               Courses
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="navbar-link"
+              onClick={() => setOpenMenu(false)}
+              to="/service">
+              Careers
             </NavLink>
           </li>
           <li>

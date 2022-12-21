@@ -31,7 +31,7 @@ const HeroSection = () => {
         {/* for image  */}
         <div className="section-hero-image">
           <picture>
-            <img src={image} alt="hero image" className="hero-img " />
+            <img src="images/8294.jpg" alt="hero image" className="hero-img " />
           </picture>
         </div>
       </div>
@@ -41,7 +41,10 @@ const HeroSection = () => {
 
 const Wrapper = styled.section`
   padding: 9rem 0;
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-bottom_20px;
+  background-color:#F4F4F4;
+
 
   .section-hero-data {
     display: flex;
@@ -50,7 +53,7 @@ const Wrapper = styled.section`
   }
 
   .btn {
-    background-color:#337EA8;
+    background-color:#F79320;
     max-width: 16rem;
     padding: 16px;
     text-align: center;
@@ -95,7 +98,7 @@ const Wrapper = styled.section`
   }
 
   .hero-img {
-    max-width: 80%;
+    max-width: 100%;
   }
 
   @media (max-width: ${({ theme }) => theme.media.mobile}) {

@@ -41,6 +41,7 @@ const Wrapper = styled.section`
   .contact-short-btn {
     justify-self: end;
     align-self: center;
+    color:#F79320;
     
   }
 

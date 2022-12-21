@@ -5,16 +5,22 @@ import Services from "./Services";
 import Contact from "./Contact";
 import Testimonials from "./Testimonials";
 import GetStarted from "./components/GetStarted";
+import Slider from "./components/Slider";
+import Courses from "./components/Courses";
 
 const Home = () => {
+
   const { updateHomePage } = useGlobalContext();
 
   useEffect(() => updateHomePage(), []);
 
   return (
     <>
+
+    <Slider  />
+    <Courses/>
       <HeroSection />
-      <Services />
+     
       <Testimonials />
       <GetStarted/>
       {/* <Contact /> */}
