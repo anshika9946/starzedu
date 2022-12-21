@@ -7,40 +7,40 @@ const Courses = () => {
   return (
     <Wrapper className="section">
  <h2>Academic Tutoring</h2>
-<div class="container">
-        <div class="box">
+<div className="container">
+        <div className="box">
        
-            <div class="imgBox">
+            <div className="imgBox">
                 <img src="images/math.jpg" alt=""/>
             </div>
            
         </div>
-    <div class="box">
-            <div class="imgBox">
+    <div className="box">
+            <div className="imgBox">
                 <img src="images/science.jpg" alt=""/>
             </div>
            
         </div>
-   <div class="box">
-            <div class="imgBox">
+   <div className="box">
+            <div className="imgBox">
                 <img src="images/socal.jpg" alt=""/>
             </div>
            
         </div>
-    <div class="box">
-            <div class="imgBox">
+    <div className="box">
+            <div className="imgBox">
                 <img src="images/coding.jpg" alt=""/>
             </div>
            
         </div>
-        <div class="box">
-            <div class="imgBox">
+        <div className="box">
+            <div className="imgBox">
                 <img src="images/english.jpg" alt=""/>
             </div>
             
         </div>
-        <div class="box">
-            <div class="imgBox">
+        <div className="box">
+            <div className="imgBox">
                 <img src="images/accountancy.jpg" alt=""/>
             </div>
            
