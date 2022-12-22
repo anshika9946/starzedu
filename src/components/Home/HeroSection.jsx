@@ -1,18 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { Button } from "../styles/Button";
-import { useGlobalContext } from "../context";
+import { Button } from "../../styles/Button";
+//import { useGlobalContext } from "../../context";
 
 const HeroSection = () => {
-  const { name, image } = useGlobalContext();
+  //const { name, image } = useGlobalContext();
 
   return (
     <Wrapper>
       <div className="container grid grid-two-column">
         <div className="section-hero-data">
           <p className="hero-top-data">EXPERIENCE</p>
-          <h1 className="hero-heading">{name}</h1>
+          <h1 className="hero-heading">LEARNING</h1>
           <p className="hero-para">
             We are _________. Feeling confident with a smile on your face. Our tutoring programmes are designed 100% around your specific needs.
           </p>

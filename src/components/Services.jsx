@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { useGlobalContext } from "../context";
+//import { useGlobalContext } from "../context";
 import { NavLink } from "react-router-dom";
 import { Button } from "../styles/Button";
 
 const Services = () => {
-  const { services } = useGlobalContext();
-  console.log(services);
+  //const { services } = useGlobalContext();
+  //console.log(services);
 
   return (
     <Wrapper className="section">

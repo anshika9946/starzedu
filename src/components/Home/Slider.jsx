@@ -3,8 +3,8 @@ import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { Button } from "../styles/Button";
-import { useGlobalContext } from "../context";
+import { Button } from "../../styles/Button";
+//import { useGlobalContext } from "../../context";
 import { Fade } from 'react-slideshow-image';
 
 

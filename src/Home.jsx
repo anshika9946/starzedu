@@ -1,29 +1,25 @@
 import { useEffect } from "react";
-import HeroSection from "./components/HeroSection";
-import { useGlobalContext } from "./context";
-import Services from "./components/Services";
-import Contact from "./Contact";
-import Testimonials from "./components/Testimonials";
-import GetStarted from "./components/GetStarted";
-import Slider from "./components/Slider";
-import Courses from "./components/Courses";
+import HeroSection from "./components/Home/HeroSection";
+// import { useGlobalContext } from "./context";
+import Testimonials from "./components/Home/Testimonials";
+import GetStarted from "./components/Home/GetStarted";
+import Slider from "./components/Home/Slider";
+import Courses from "./components/Home/Courses";
 
 const Home = () => {
 
-  const { updateHomePage } = useGlobalContext();
+  // const { updateHomePage } = useGlobalContext();
 
-  useEffect(() => updateHomePage(), []);
+ // useEffect(() => updateHomePage(), []);
 
   return (
     <>
 
     <Slider  />
     <Courses/>
-      <HeroSection />
-     
+      <HeroSection /> 
       <Testimonials />
       <GetStarted/>
-      {/* <Contact /> */}
     </>
   );
 };
