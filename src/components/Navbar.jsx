@@ -140,7 +140,7 @@ const Navbar = () => {
             <NavLink
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
-              to="/service">
+              to="/courses">
               Courses
             </NavLink>
           </li>
@@ -148,7 +148,7 @@ const Navbar = () => {
             <NavLink
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
-              to="/service">
+              to="/career">
               Careers
             </NavLink>
           </li>

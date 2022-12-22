@@ -3,11 +3,11 @@ import HeroSection from "./components/Home/HeroSection";
 import Testimonials from "./components/Home/Testimonials";
 //import { useGlobalContext } from "./context";
 
-const About = () => {
+const Courses = () => {
 
   return (
     <>
-
+<Testimonials/>
       <HeroSection /> 
       <Testimonials/>
 
@@ -15,4 +15,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Courses;

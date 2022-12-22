@@ -3,9 +3,6 @@ import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { Button } from "../../styles/Button";
-//import { useGlobalContext } from "../../context";
-import { Fade } from 'react-slideshow-image';
 
 
 const slideImages = [
@@ -54,25 +51,7 @@ const slideImages = [
           </Slide>
         
         
-      {/* <div className="each-fade">
-        <div className="image-container">
-          <img src='images/slide1.jpg'/>
-        </div>
-        <h2>First Slide</h2>
-      </div>
-      <div className="each-fade">
-        <div className="image-container">
-          <img src='images/slide1.jpg' />
-        </div>
-        <h2>Second Slide</h2>
-      </div>
-      <div className="each-fade">
-        <div className="image-container">
-          <img src='images/slide1.jpg'/>
-        </div>
-        <h2>Third Slide</h2>
-      </div>
-    </Fade> */}
+    
     
         </Wrapper>
       )
