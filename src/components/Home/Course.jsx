@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 
 
-const Courses = () => {
+const Course = () => {
     
   return (
     <Wrapper className="section">
@@ -150,4 +150,4 @@ body {
 
 `;
 
-export default Courses;
+export default Course;

@@ -82,6 +82,7 @@ body {
 }
 
 .container {
+    
     margin-top: 50px;
     max-width: 800px;
     margin-bottom: 0px;
