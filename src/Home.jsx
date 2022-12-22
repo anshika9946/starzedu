@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import HeroSection from "./components/HeroSection";
 import { useGlobalContext } from "./context";
-import Services from "./Services";
+import Services from "./components/Services";
 import Contact from "./Contact";
-import Testimonials from "./Testimonials";
+import Testimonials from "./components/Testimonials";
 import GetStarted from "./components/GetStarted";
 import Slider from "./components/Slider";
 import Courses from "./components/Courses";
