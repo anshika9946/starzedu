@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { FaArrowUp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 const GoToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -14,23 +14,23 @@ const GoToTop = () => {
     const winScroll =
       document.body.scrollTop || document.documentElement.scrollTop;
 
-    if (winScroll > heightToHidden) {
-      setIsVisible(true);
-    } else {
-      setIsVisible(false);
-    }
-  };
+  //   if (winScroll > heightToHidden) {
+    setIsVisible(true);
+  //   } else {
+  //     setIsVisible(false);
+  //   }
+   };
 
   useEffect(() => {
     window.addEventListener("scroll", listenToScroll);
-    return () => window.removeEventListener("scroll", listenToScroll);
+    return () => window.removeEventListener("scroll", listenToScroll);         
   }, []);
 
   return (
     <Wrapper>
       {isVisible && (
-        <div className="top-btn" onClick={goToBtn}>
-          <FaArrowUp className="top-btn--icon" />
+        <div className="top-btn"  onClick={() => window.open( 'https://api.whatsapp.com/send?phone=8800126912&text=This%20is%20a%20test')} >
+          <FaWhatsapp className="top-btn--icon" />
         </div>
       )}
     </Wrapper>
@@ -48,7 +48,7 @@ const Wrapper = styled.section`
     width: 6rem;
     height: 6rem;
     color: #fff;
-    background-color: ${({ theme }) => theme.colors.btn};
+    background-color: #25D366;
     box-shadow: ${({ theme }) => theme.colors.shadow};
     border-radius: 50%;
     position: fixed;
