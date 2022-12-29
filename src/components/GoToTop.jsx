@@ -3,36 +3,36 @@ import styled from "styled-components";
 import { FaWhatsapp } from "react-icons/fa";
 
 const GoToTop = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  // const [isVisible, setIsVisible] = useState(false);
 
-  const goToBtn = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  };
+  // const goToBtn = () => {
+  //   window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  // };
 
-  const listenToScroll = () => {
-    let heightToHidden = 20;
-    const winScroll =
-      document.body.scrollTop || document.documentElement.scrollTop;
+  // const listenToScroll = () => {
+  //   let heightToHidden = 0;
+  //   const winScroll =
+  //     document.body.scrollTop || document.documentElement.scrollTop;
 
-  //   if (winScroll > heightToHidden) {
-    setIsVisible(true);
-  //   } else {
-  //     setIsVisible(false);
-  //   }
-   };
+  // //   if (winScroll > heightToHidden) {
+  //   setIsVisible(true);
+  // //   } else {
+  // //     setIsVisible(false);
+  // //   }
+  //  };
 
-  useEffect(() => {
-    window.addEventListener("scroll", listenToScroll);
-    return () => window.removeEventListener("scroll", listenToScroll);         
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", listenToScroll);
+  //   return () => window.removeEventListener("scroll", listenToScroll);         
+  // }, []);
 
   return (
     <Wrapper>
-      {isVisible && (
+      {
         <div className="top-btn"  onClick={() => window.open( 'https://api.whatsapp.com/send?phone=8800126912&text=This%20is%20a%20test')} >
           <FaWhatsapp className="top-btn--icon" />
         </div>
-      )}
+      }
     </Wrapper>
   );
 };
