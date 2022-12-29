@@ -110,9 +110,9 @@ a:hover  {
     <Wrapper>
       {/* <h2 className="common-heading">Feel Free to Contact us</h2> */}
 
-      <div class="section">
-  <div class="top-border left"></div>
-  <div class="top-border right"></div>
+      <div className="section">
+  <div className="top-border left"></div>
+  <div className="top-border right"></div>
   <h1>CONTACT US</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSfr_Uv4F4r-NP4mJenjhzzbCa0oBN85nwFZJmsJMDBy1uze2g/viewform?usp=sf_link" target="_blank">CONTACT US</a>
