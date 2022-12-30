@@ -6,9 +6,9 @@ import styled from "styled-components";
 
 
 const slideImages = [
-    'images/slide1.jpg',
-    'images/slide1.jpg',
-    'images/slide1.jpg'
+    'images/p1.jpg',
+    'images/p2.jpg',
+    'images/p3.jpg'
   ];
   
   const properties = {
@@ -32,22 +32,23 @@ const slideImages = [
         <Slide {...properties}>
           <div className="each-slide">
           <div className="image-container">
-          <img src='images/slide1.jpg'/>
+          <img src='images/p1.jpg'/>
               {/* <span>Slide 1</span> */}
             </div>
           </div>
           <div className="each-slide">
           <div className="image-container">
-          <img src='images/slide1.jpg'/>
+          <img src='images/p2.jpg'/>
               {/* <span>Slide 2</span> */}
             </div>
           </div>
           <div className="each-slide">
           <div className="image-container">
-          <img src='images/slide1.jpg'/>
+          <img src='images/p3.jpg'/>
               {/* <span>Slide 3</span> */}
             </div>
           </div>
+         
           </Slide>
         
         
