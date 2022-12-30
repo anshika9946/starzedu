@@ -44,6 +44,7 @@ const Testimonials = () => {
 const Wrapper = styled.section`
   padding: 5rem 0;
   background-color: white;
+  margin-bottom:0px;
 
   @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans');
 
