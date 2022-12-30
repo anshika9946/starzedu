@@ -10,9 +10,9 @@ const GetStarted = () => {
       <section className="contact-short">
         <div className="grid grid-two-column">
           <div>
-            <h3>Ready to get started?</h3>
+            <h2>Ready to get started?</h2>
             <br/>
-            <h3>Book a demo today!</h3>
+            <h2>Book a demo today!</h2>
           </div>
 
           <div className="contact-short-btn">
@@ -30,8 +30,10 @@ const Wrapper = styled.section`
   .contact-short {
     max-width: 60vw;
     margin: auto;
+    margin-bottom: 50px;
+    margin-top: 0px;
     padding: 5rem 10rem;
-    background-color: ${({ theme }) => theme.colors.bg};
+    background-color:#F79320 ;
     border-radius: 1rem;
    
     box-shadow: ${({ theme }) => theme.colors.shadowSupport};
@@ -41,8 +43,15 @@ const Wrapper = styled.section`
   .contact-short-btn {
     justify-self: end;
     align-self: center;
-    color:#F79320;
+   
     
+  }
+  h2{
+    font-size:20px;
+  }
+  button{
+    background-color:${({ theme }) => theme.colors.bg};
+    color: rgb(0 0 0);
   }
 
   
