@@ -11,10 +11,10 @@ const HeroSection = () => {
     <Wrapper>
       <div className="container grid grid-two-column">
         <div className="section-hero-data">
-          <p className="hero-top-data">EXPERIENCE</p>
-          <h1 className="hero-heading">LEARNING</h1>
+          <p className="hero-top-data">ABOUT</p>
+          <h1 className="hero-heading">STARZEDU CLASSES</h1>
           <p className="hero-para">
-            We are _________. Feeling confident with a smile on your face. Our tutoring programmes are designed 100% around your specific needs.
+          Staredu Classes is an e-learning platform offering after-school coaching support for kids from SK to Grade 12. We prioritize getting the concepts right over rushing through the curriculum. Our qualified tutors understand your child’s individual needs and kindle their natural curiosity to make the learning experience fun and stress-free.
           </p>
           <div id="container">
           <Button className="btn hireme-btn">
@@ -31,7 +31,7 @@ const HeroSection = () => {
         {/* for image  */}
         <div className="section-hero-image">
           <picture>
-            <img src="images/8294.jpg" alt="hero image" className="hero-img " />
+            <img src="images/8294.png" alt="hero image" className="hero-img " />
           </picture>
         </div>
       </div>
@@ -78,7 +78,8 @@ const Wrapper = styled.section`
 
   .hero-heading {
     text-transform: uppercase;
-    font-size: 6.4rem;
+    font-size: 4.4rem;
+    color:#2c7cdb
   }
 
   .hero-para {
