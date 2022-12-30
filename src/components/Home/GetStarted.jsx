@@ -48,6 +48,8 @@ const Wrapper = styled.section`
   }
   h2{
     font-size:20px;
+    color:#fff;
+    
   }
   button{
     background-color:${({ theme }) => theme.colors.bg};
