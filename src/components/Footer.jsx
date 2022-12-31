@@ -14,7 +14,9 @@ const Footer = () => {
         <div className="container grid grid-four-column">
           <div className="footer-about">
             <h3>Starzedu Classes</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p> We prioritize getting the concepts right over rushing through the curriculum. Our qualified tutors understand your child’s individual needs and kindle their natural curiosity to make the learning experience fun and stress-free.
+
+</p>
           </div>
 
           {/* 2nd column
@@ -42,11 +44,11 @@ const Footer = () => {
                 <FaInstagram className="icons" />
               </div>
               <div>
-                <a
+                {/* <a
                   href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                  target="_blank">
+                  target="_blank"> */}
                   <FaTwitter className="icons" />
-                </a>
+                {/* </a> */}
               </div>
               <div>
                 <FaLinkedin className="icons" />
