@@ -41,7 +41,7 @@ const Course = () => {
         </div>
         <div className="box">
             <div className="imgBox">
-                <img src="images/accountancy.jpg" alt=""/>
+                <img src="images/lang.jpg" alt=""/>
             </div>
            
         </div>
