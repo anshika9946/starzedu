@@ -105,7 +105,7 @@ body {
   position: relative;
   width: 30rem;
   height: 30rem;
-  //margin: 2rem;
+  margin-bottom: 4rem;
   justify-content: center;
   
 }
