@@ -1,22 +1,23 @@
 import React, { useEffect } from "react";
+import Design from "./extra/Design";
 import HeroSection from "./components/Home/HeroSection";
-import Course from "./components/Home/Course";
 import Testimonials from "./components/Home/Testimonials";
-import GetStarted from "./components/Home/GetStarted";
+import New from "./extra/New";
 import WeOffer from "./components/WeOffer";
+import Contact from "./Contact";
+
 //import { useGlobalContext } from "./context";
 
-const Courses = () => {
+const ContactUs = () => {
 
   return (
     <>
-<Course/>
-      
-      <WeOffer/>
-      <GetStarted/>
+
+<HeroSection/>
+<Contact/>
 
     </>
   );
 };
 
-export default Courses;
+export default ContactUs;

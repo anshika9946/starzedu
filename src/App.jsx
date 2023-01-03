@@ -1,5 +1,5 @@
 import About from "./About";
-import Contact from "./Contact";
+import ContactUs from "./ContactUs";
 import Home from "./Home";
 import Courses from "./Courses";
 import Career from "./Career";
@@ -47,7 +47,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/career" element={<Career />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<ContactUs />} />
           <Route path="*" element={<Error />} />
         </Routes>
 
