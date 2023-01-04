@@ -3,6 +3,7 @@ import ContactUs from "./Main/ContactUs";
 import Home from "./Main/Home";
 import Courses from "./Main/Courses";
 import Career from "./Main/Career";
+import JustContact from "./Main/JustContact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Main/Header";
 import Footer from "./Main/Footer";
@@ -47,6 +48,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/career" element={<Career />} />
+          <Route path="/contactUs" element={<JustContact />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="*" element={<Error />} />
         </Routes>
