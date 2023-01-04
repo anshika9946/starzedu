@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 
 const Design = () => {
-    
+	let url="https://forms.gle/YmseSjCc16c4Q81UA";
   return (
     <Wrapper className="section">
     
@@ -12,18 +12,20 @@ const Design = () => {
 	<div className="card">
 		<div className="card-image">	
 			<h2 className="card-heading">
-				Get started
-				<small>Let us create your account</small>
+				{/* Get started
+				<small>Let us create your account</small> */}
 			</h2>
 		</div>
 		<form className="card-form">
 			
 			<div className="action">
-				<button className="action-button">Get started</button>
+			
+				<button className="action-button" ><a href={url} className="a" target="_blank">CLICK TO BOOK A FREE SESSION</a></button>
+				
 			</div>
 		</form>
 		<div className="card-info">
-			<p>By signing up you are agreeing to our <a href="#">Terms and Conditions</a></p>
+			<p>Provide your kid with the best opportunities for a bright future!</p>
 		</div>
 	</div>
 </div>
@@ -35,12 +37,17 @@ const Design = () => {
 
 const Wrapper = styled.section`
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-
+margin-top:5rem;
 *, *:after, *:before {
 	box-sizing: border-box;
 }
-
+a:link, a:visited  {
+	color: white;
+	text-decoration: none;
+	
+  }
 body {
+	
 	font-family: "DM Sans", sans-serif;
 	line-height: 1.5;
 	background-color: #f1f3fb;
@@ -75,10 +82,11 @@ input {
 	border-radius: 8px;
 	overflow: hidden;
 	padding-bottom: 65%;
-	background-image: url('https://assets.codepen.io/285131/coffee_1.jpg');
+	background-image: url('images/ans.png');
+	background-size: contain;
+	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 150%;
-	background-position: 0 5%;
+	background-size: 100%;
 	position: relative;
 }
 
@@ -87,13 +95,13 @@ input {
 	left: 10%;
 	top: 15%;
 	right: 10%;
-	font-size: 1.75rem;
+	font-size: 3.75rem;
 	font-weight: 700;
 	color: #735400;
 	line-height: 1.222;
 	small {
 		display: block;
-		font-size: .75em;
+		font-size: 1.75em;
 		font-weight: 400;
 		margin-top: .25em;
 	}
@@ -126,7 +134,7 @@ input {
 	background-color: transparent;
 	border-bottom: 2px solid #eee; 
 	font: inherit;
-	font-size: 1.125rem;
+	font-size: 4.125rem;
 	padding: .25rem 0;
 	&:focus, &:valid {
 		outline: 0;
@@ -144,13 +152,13 @@ input {
 
 .action-button {
 	font: inherit;
-	font-size: 1.25rem;
+	font-size: 2.25rem;
 	padding: 1em;
 	width: 100%;
 	font-weight: 500;
 	background-color: #6658d3;
 	border-radius: 6px;
-	color: #FFF;
+	color: white;
 	border: 0;
 	&:focus {
 		outline: 0;
@@ -160,12 +168,16 @@ input {
 .card-info {
 	padding: 1rem 1rem;
 	text-align: center;
-	font-size: .875rem;
+	font-size: 2rem;
 	color: #8597a3;
+	margin-bottom:2rem;
 	a {
 		display: block;
 		color: #6658d3;
 		text-decoration: none;
+	}
+	p{
+		font-size:2.15rem;
 	}
 }
 
