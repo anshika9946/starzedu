@@ -12,10 +12,8 @@ const ContactUs = () => {
 
   return (
     <>
-
-<HeroSection/>
-<Contact/>
-
+<Design/>
+<Testimonials/>
     </>
   );
 };

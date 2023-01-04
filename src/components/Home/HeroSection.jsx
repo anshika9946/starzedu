@@ -8,7 +8,7 @@ const HeroSection = () => {
 
 
   return (
-    <Wrapper>
+    <Wrapper className="section">
       <div className="container grid grid-two-column">
         <div className="section-hero-data">
           <p className="hero-top-data">ABOUT</p>

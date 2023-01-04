@@ -6,7 +6,72 @@ import { CgMenu, CgCloseR } from "react-icons/cg";
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
-  const Nav = styled.nav`
+  
+  return (
+    
+    <Nav>
+      <div className={openMenu ? "menuIcon active" : "menuIcon"}>
+        <ul className="navbar-list">
+          <li>
+            <NavLink
+              className="navbar-link"
+              onClick={() => setOpenMenu(false)}
+              to="/">
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="navbar-link"
+              onClick={() => setOpenMenu(false)}
+              to="/about">
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="navbar-link"
+              onClick={() => setOpenMenu(false)}
+              to="/courses">
+              Courses
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="navbar-link"
+              onClick={() => setOpenMenu(false)}
+              to="/career">
+              Careers
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="navbar-link"
+              onClick={() => setOpenMenu(false)}
+              to="/contact">
+              Register for Demo
+            </NavLink>
+          </li>
+        </ul>
+        {/* //nav icon */}
+        <div className="mobile-navbar-btn">
+          <CgMenu
+            name="menu-outline"
+            className="mobile-nav-icon"
+            onClick={() => setOpenMenu(true)}
+          />
+          <CgCloseR
+            name="close-outline"
+            className="close-outline mobile-nav-icon"
+            onClick={() => setOpenMenu(false)}
+          />
+        </div>
+      </div>
+    </Nav>
+  );
+};
+
+const Nav = styled.div`
     .navbar-list {
       display: flex;
       gap: 4.8rem;
@@ -116,67 +181,5 @@ const Navbar = () => {
     }
   `;
 
-  return (
-    <Nav>
-      <div className={openMenu ? "menuIcon active" : "menuIcon"}>
-        <ul className="navbar-list">
-          <li>
-            <NavLink
-              className="navbar-link"
-              onClick={() => setOpenMenu(false)}
-              to="/">
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              className="navbar-link"
-              onClick={() => setOpenMenu(false)}
-              to="/about">
-              About
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              className="navbar-link"
-              onClick={() => setOpenMenu(false)}
-              to="/courses">
-              Courses
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              className="navbar-link"
-              onClick={() => setOpenMenu(false)}
-              to="/career">
-              Careers
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              className="navbar-link"
-              onClick={() => setOpenMenu(false)}
-              to="/contact">
-              Register for Demo
-            </NavLink>
-          </li>
-        </ul>
-        {/* //nav icon */}
-        <div className="mobile-navbar-btn">
-          <CgMenu
-            name="menu-outline"
-            className="mobile-nav-icon"
-            onClick={() => setOpenMenu(true)}
-          />
-          <CgCloseR
-            name="close-outline"
-            className="close-outline mobile-nav-icon"
-            onClick={() => setOpenMenu(false)}
-          />
-        </div>
-      </div>
-    </Nav>
-  );
-};
 
 export default Navbar;

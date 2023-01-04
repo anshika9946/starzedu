@@ -6,7 +6,7 @@ import { FaLinkedin, FaInstagram, FaTwitter ,FaFacebook} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <Wrapper>
+    <Wrapper className="section">
       
       {/* footer section  */}
 

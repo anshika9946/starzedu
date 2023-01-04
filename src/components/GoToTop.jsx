@@ -27,7 +27,7 @@ const GoToTop = () => {
   // }, []);
 
   return (
-    <Wrapper>
+    <Wrapper className="section">
       {
         <div className="top-btn"  onClick={() => window.open( 'https://api.whatsapp.com/send?phone=8800126912&text=This%20is%20a%20test')} >
           <FaWhatsapp className="top-btn--icon" />

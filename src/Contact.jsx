@@ -1,9 +1,28 @@
-import React from "react";
+import React, {useState} from "react";
 import styled from "styled-components";
 
 
 const Contact = () => {
-  const Wrapper = styled.section`
+  
+  const [state,setState]=useState(false);
+  let url="https://forms.gle/YmseSjCc16c4Q81UA";
+
+  return (
+    
+    <Wrapper>
+      {/* <h2 className="common-heading">Feel Free to Contact us</h2> */}
+
+      <div className="section">
+  <div className="top-border left"></div>
+  <div className="top-border right"></div>
+  <h1>CONTACT US</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <a href={url} target="_blank">CONTACT US</a>
+</div>
+    </Wrapper>
+  );
+};
+const Wrapper = styled.section`
   * {
   box-sizing: border-box;
   margin: 0;
@@ -105,20 +124,4 @@ a:hover  {
       }
     }
   `;
-
-  return (
-    <Wrapper>
-      {/* <h2 className="common-heading">Feel Free to Contact us</h2> */}
-
-      <div className="section">
-  <div className="top-border left"></div>
-  <div className="top-border right"></div>
-  <h1>CONTACT US</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a href="https://forms.gle/YmseSjCc16c4Q81UA" target="_blank">CONTACT US</a>
-</div>
-    </Wrapper>
-  );
-};
-
 export default Contact;

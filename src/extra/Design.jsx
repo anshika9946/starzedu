@@ -8,132 +8,170 @@ const Design = () => {
     <Wrapper className="section">
     
 
-<div className="landing-page">
-  <div className="container">
-    <div className="header-area">
-      <div className="logo">Your <b>Website</b></div>
-     
-    </div>
-    <div className="info">
-      <h1>Looking For Inspiration</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit nihil ullam nesciunt quidem iste, Repellendus odit nihil</p>
-      <button>Button name</button>
-    </div>
-    <div className="image">
-      <img src="https://i.postimg.cc/65QxYYzh/001234.png"/>
-    </div>
-    <div className="clearfix"></div>
-  </div>
+    <div className="container">
+	<div className="card">
+		<div className="card-image">	
+			<h2 className="card-heading">
+				Get started
+				<small>Let us create your account</small>
+			</h2>
+		</div>
+		<form className="card-form">
+			
+			<div className="action">
+				<button className="action-button">Get started</button>
+			</div>
+		</form>
+		<div className="card-info">
+			<p>By signing up you are agreeing to our <a href="#">Terms and Conditions</a></p>
+		</div>
+	</div>
 </div>
+
 
     </Wrapper>
     );
 };
 
 const Wrapper = styled.section`
-* {
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*, *:after, *:before {
+	box-sizing: border-box;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+	font-family: "DM Sans", sans-serif;
+	line-height: 1.5;
+	background-color: #f1f3fb;
+	padding: 0 2rem;
 }
 
-.container {
-    width: 1170px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: auto;
+img {
+	max-width: 100%;
+	display: block;
 }
 
-/* Start Landing Page */
 
-.landing-page {
-    position: relative;
-    background-color: #FFF;
+// iOS Reset 
+input {
+	appearance: none;
+	border-radius: 0;
 }
 
-.landing-page .header-area {
-    display: flex;
-    padding: 25px 0 0;
-    position: relative;
+.card {
+	margin: 2rem auto;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 425px;
+	background-color: #F4F4F4;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px 0 rgba(#999, .25);
+	padding: .75rem;
 }
 
-.landing-page .header-area .logo {
-    text-transform: uppercase;
-    font-style: italic;
-    margin-top: 10px;
-    font-size: 19px;
-    width: 300px;
-    color: #5d5d5d;
+.card-image {
+	border-radius: 8px;
+	overflow: hidden;
+	padding-bottom: 65%;
+	background-image: url('https://assets.codepen.io/285131/coffee_1.jpg');
+	background-repeat: no-repeat;
+	background-size: 150%;
+	background-position: 0 5%;
+	position: relative;
 }
 
-.landing-page .header-area .links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    text-align: right;
+.card-heading {
+	position: absolute;
+	left: 10%;
+	top: 15%;
+	right: 10%;
+	font-size: 1.75rem;
+	font-weight: 700;
+	color: #735400;
+	line-height: 1.222;
+	small {
+		display: block;
+		font-size: .75em;
+		font-weight: 400;
+		margin-top: .25em;
+	}
 }
 
-.landing-page .header-area .links li {
-    display: inline-block;
-    margin-left: 30px;
-    color: #5d5d5d;
-    cursor: pointer;
+.card-form {
+	padding: 2rem 1rem 0;
 }
 
-.landing-page .header-area .links li:last-child {
-    border: 0;
-    border-radius: 20px;
-    padding: 10px 18px;
-    color: #FFF;
-    background-color: #6c63ff;
+.input {
+	display: flex;
+	flex-direction: column-reverse;
+	position: relative;
+	padding-top: 1.5rem;
+	&+.input {
+		margin-top: 1.5rem;
+	}
 }
 
-.landing-page .info {
-    width: 35%;
-    float: left;
-    margin-top: 130px;
+.input-label {
+	color: #8597a3;
+	position: absolute;
+	top: 1.5rem;
+	transition: .25s ease;
 }
 
-.landing-page .info h1 {
-    font-size: 44px;
-    margin: 0 0 20px;
-    line-height: 1.4;
-    color: #5d5d5d;
+.input-field {
+	border: 0;
+	z-index: 1;
+	background-color: transparent;
+	border-bottom: 2px solid #eee; 
+	font: inherit;
+	font-size: 1.125rem;
+	padding: .25rem 0;
+	&:focus, &:valid {
+		outline: 0;
+		border-bottom-color: #6658d3;
+		&+.input-label {
+			color: #6658d3;
+			transform: translateY(-1.5rem);
+		}
+	}
 }
 
-.landing-page .info p {
-    margin: 0;
-    line-height: 1.6;
-    font-size: 15px;
-    color: #5d5d5d;
+.action {
+	margin-top: 2rem;
 }
 
-.landing-page .info button {
-    border: 0;
-    border-radius: 20px;
-    padding: 12px 30px;
-    margin-top: 30px;
-    cursor: pointer;
-    color: #FFF;
-    background-color: #6c63ff;
+.action-button {
+	font: inherit;
+	font-size: 1.25rem;
+	padding: 1em;
+	width: 100%;
+	font-weight: 500;
+	background-color: #6658d3;
+	border-radius: 6px;
+	color: #FFF;
+	border: 0;
+	&:focus {
+		outline: 0;
+	}
 }
 
-.landing-page .image {
-    width: 50%;
-    float: right;
-    margin-top: 35px;
+.card-info {
+	padding: 1rem 1rem;
+	text-align: center;
+	font-size: .875rem;
+	color: #8597a3;
+	a {
+		display: block;
+		color: #6658d3;
+		text-decoration: none;
+	}
 }
 
-.landing-page .image img {
-    max-width: 100%;
-}
 
-.clearfix {
-  clear: both;
-}
+
+
 
 `;
 

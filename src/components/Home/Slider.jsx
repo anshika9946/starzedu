@@ -27,7 +27,7 @@ const slideImages = [
   
   const Slider = () => {
       return (
-        <Wrapper>
+        <Wrapper className="section">
             {/* <Fade {...fadeProperties}> */}
         <Slide {...properties}>
           <div className="each-slide">

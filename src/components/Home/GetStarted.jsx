@@ -6,7 +6,7 @@ import { FaDiscord, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const GetStarted = () => {
   return (
-    <Wrapper>
+    <Wrapper className="section">
       <section className="contact-short">
         <div className="grid grid-two-column">
           <div>
