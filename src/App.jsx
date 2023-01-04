@@ -1,15 +1,15 @@
-import About from "./About";
-import ContactUs from "./ContactUs";
-import Home from "./Home";
-import Courses from "./Courses";
-import Career from "./Career";
+import About from "./Main/About";
+import ContactUs from "./Main/ContactUs";
+import Home from "./Main/Home";
+import Courses from "./Main/Courses";
+import Career from "./Main/Career";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./Main/Header";
+import Footer from "./Main/Footer";
 import { ThemeProvider } from "styled-components";
-import { GlobalStyle } from "./GlobalStyle";
-import Error from "./Error";
-import GoToTop from "./components/GoToTop";
+import { GlobalStyle } from "./Main/GlobalStyle";
+import Error from "./extra/Error";
+import GoToTop from "./Main/GoToTop";
 
 
 

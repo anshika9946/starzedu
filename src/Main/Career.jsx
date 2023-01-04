@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import HeroSection from "./components/Home/HeroSection";
-import Testimonials from "./components/Home/Testimonials";
-import Contact from "./Contact";
+import HeroSection from "../components/HeroSection";
+import Testimonials from "../components/Testimonials";
+import Contact from "../components/Contact";
 
 //import { useGlobalContext } from "./context";
 
