@@ -48,6 +48,14 @@ const Navbar = () => {
             <NavLink
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
+              to="/contactUs">
+              Contact Us
+            </NavLink>
+            </li>
+          <li>
+            <NavLink
+              className="navbar-link"
+              onClick={() => setOpenMenu(false)}
               to="/contact">
               Register for Demo
             </NavLink>
