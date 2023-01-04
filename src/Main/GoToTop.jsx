@@ -29,7 +29,7 @@ const GoToTop = () => {
   return (
     <Wrapper className="section">
       {
-        <div className="top-btn"  onClick={() => window.open( 'https://api.whatsapp.com/send?phone=8800126912&text=This%20is%20a%20test')} >
+        <div className="top-btn"  onClick={() => window.open( 'https://api.whatsapp.com/send?phone=8882073991&text=Hello%20I%20wish%20to%20book%20a%20free%20demo')} >
           <FaWhatsapp className="top-btn--icon" />
         </div>
       }
