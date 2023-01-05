@@ -31,7 +31,7 @@ const Colorful = () => {
 };
 
 const Wrapper = styled.section`
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 
 *{
   margin: 0;

@@ -36,7 +36,7 @@ const Design = () => {
 };
 
 const Wrapper = styled.section`
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
 margin-top:5rem;
 *, *:after, *:before {
 	box-sizing: border-box;

@@ -51,7 +51,7 @@ const Course = () => {
 }
 
 const Wrapper = styled.section`
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
 *,
 padding: 9rem 0;
   box-sizing: border-box;
