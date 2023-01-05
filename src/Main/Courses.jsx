@@ -4,6 +4,8 @@ import Course from "../components/Course";
 import Testimonials from "../components/Testimonials";
 import GetStarted from "../components/GetStarted";
 import WeOffer from "../components/WeOffer";
+import Dots from "../components/dots";
+import Timeline from "../components/Timeline";
 //import { useGlobalContext } from "./context";
 
 const Courses = () => {
@@ -12,8 +14,10 @@ const Courses = () => {
     <>
 <Course/>
       
-      <WeOffer/>
-      <GetStarted/>
+      {/* <WeOffer/> */}
+      {/* <GetStarted/> */}
+     
+      <Timeline/>
 
     </>
   );
