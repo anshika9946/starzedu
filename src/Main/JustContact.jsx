@@ -56,7 +56,9 @@ const JustContact = () => {
 
 const Wrapper = styled.section`
 
+
 margin-bottom:5rem;
+margin-top:4rem;
 * {
     box-sizing: border-box;
   }
@@ -83,8 +85,9 @@ p{
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    border-radius:.75rem;
   }
-  
+
   input[type=submit] {
     background-color: #1B83FE;
     color: white;
@@ -94,7 +97,7 @@ p{
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #1B83E0;
   }
   
   /* Style the container/contact section */
