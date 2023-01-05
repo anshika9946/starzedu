@@ -36,18 +36,28 @@ const slideImages = [
               {/* <span>Slide 1</span> */}
             </div>
           </div>
+         
+         
           <div className="each-slide">
           <div className="image-container">
-          <img src='images/p2.jpg'/>
-              {/* <span>Slide 2</span> */}
+          <img src='images/p4.jpg'/>
+              {/* <span>Slide 1</span> */}
             </div>
           </div>
           <div className="each-slide">
           <div className="image-container">
           <img src='images/p3.jpg'/>
-              {/* <span>Slide 3</span> */}
+              {/* <span>Slide 2</span> */}
             </div>
           </div>
+          <div className="each-slide">
+          <div className="image-container">
+          <img src='images/p5.jpg'/>
+              {/* <span>Slide 2</span> */}
+            </div>
+          </div>
+          
+         
          
           </Slide>
         
