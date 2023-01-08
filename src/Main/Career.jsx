@@ -12,8 +12,8 @@ const Career = () => {
     <>
 
       <AboutUs/>
-      <Testimonials/>
-      <Contact/>
+      {/* <Testimonials/>
+      <Contact/> */}
 
     </>
   );

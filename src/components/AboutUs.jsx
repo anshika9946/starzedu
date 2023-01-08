@@ -21,30 +21,26 @@ const AboutUs = () => {
                 <div className="column">
                     
                         <div className="sec-title">
-                            <span className="title">About Company</span>
-                            <h2>We are leader in <br/>Industrial market Since 1992</h2>
+                            <span className="title">CAREERS</span>
+                            <h2>Be a part of <br/>STARZEDU TEAM</h2>
                         </div>
-                        <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur.</div>
+                        <div className="text">Join our group of certified tutors equipped to deliver quality education in ed-tech learning spaces.</div>
                         <ul className="list-style-one">
-                            <li>Lorem Ipsum is simply dummy tex</li>
-                            <li>Consectetur adipisicing elit</li>
-                            <li>Sed do eiusmod tempor incididunt</li>
+                        <h3>BENEFITS</h3>
+                            <li>Work From Home</li>
+                            <li>Earn up to INR 50000/month</li>
+                            <li>Flexible Working Hours</li>
+                        <h3>REQUIREMENTS</h3>
+                            <li>Good English Communication</li>
+                            <li>High-speed Wi-Fi and Laptop</li>
+                            <li>Proficiency on Subjects</li>
                         </ul>
                         <div className="btn-box">
                             {/* <a href="#" className="theme-btn btn-style-one">CC</a> */}
-                            <NavLink to="/contact" className="theme-btn btn-style-one"> Contact Us</NavLink>
+                            <NavLink to="/contact" className="theme-btn btn-style-one">Become an Online Tutor</NavLink>
                         </div>
                     
                 </div>
-
-                
-                
-                   
-               
             </div>
         </div>
    
@@ -53,6 +49,12 @@ const AboutUs = () => {
 };
 
 const Wrapper = styled.section`
+margin-bottom: 4rem;
+h3{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    font-weight: bold;
+}
 margin-top:4rem;
 .text{
     font-size:1.75rem;
@@ -182,7 +184,7 @@ position:relative;
 
 .list-style-one li{
 position:relative;
-font-size:2rem;
+font-size:1.75rem;
 line-height:26px;
 color: #222222;
 font-weight:400;
