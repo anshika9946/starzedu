@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 
 const AboutUs = () => {
-	
+	let url="https://forms.gle/nNurqX7mRX5zTo717";
   return (
     <Wrapper className="section">
    
@@ -36,8 +36,8 @@ const AboutUs = () => {
                             <li>Proficiency on Subjects</li>
                         </ul>
                         <div className="btn-box">
-                            {/* <a href="#" className="theme-btn btn-style-one">CC</a> */}
-                            <NavLink to="/contact" className="theme-btn btn-style-one">Become an Online Tutor</NavLink>
+                            <a href={url} className="theme-btn btn-style-one" target="_blank">Become an Online Tutor</a>
+                            {/* <NavLink to="/contact" className="theme-btn btn-style-one">Become an Online Tutor</NavLink> */}
                         </div>
                     
                 </div>
@@ -220,7 +220,7 @@ font-family: "Font Awesome 5 Free";
 }
 
 .list-style-one li a:hover{
-color: #44bce2;
+color: #F79332;
 }
 
 .btn-style-one{
@@ -233,12 +233,12 @@ padding: 10px 30px;
 font-weight: 600;
 overflow: hidden;
 letter-spacing: 0.02em;
-background-color: #FFC801;
+background-color: #F79320;
 margin-top:2rem;
 }
 
 .btn-style-one:hover{
-background-color: #FFC801;
+background-color: #F79300;
 color: #ffffff;
 }
 .about-section{
