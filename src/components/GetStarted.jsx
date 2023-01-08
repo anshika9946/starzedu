@@ -27,6 +27,7 @@ const GetStarted = () => {
 };
 
 const Wrapper = styled.section`
+font-family:Microsoft Sans Serif;
   .contact-short {
     max-width: 60vw;
     margin: auto;
@@ -43,6 +44,7 @@ const Wrapper = styled.section`
   .contact-short-btn {
     justify-self: end;
     align-self: center;
+    border-radius: 1rem;
    
     
   }
@@ -54,6 +56,8 @@ const Wrapper = styled.section`
   button{
     background-color:${({ theme }) => theme.colors.bg};
     color: rgb(0 0 0);
+    border-radius: 1rem;
+    font-size:2rem;
   }
 
   

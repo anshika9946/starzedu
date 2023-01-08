@@ -36,7 +36,7 @@ const Design = () => {
 };
 
 const Wrapper = styled.section`
-
+font-family:Microsoft Sans Serif;
 margin-top:5rem;
 *, *:after, *:before {
 	box-sizing: border-box;
@@ -48,7 +48,7 @@ a:link, a:visited  {
   }
 body {
 	
-	font-family: "DM Sans", sans-serif;
+	font-family:Microsoft Sans Serif;
 	line-height: 1.5;
 	background-color: #f1f3fb;
 	padding: 0 2rem;

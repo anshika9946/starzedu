@@ -64,8 +64,11 @@ h2 {
     margin-bottom: 50px;
     margin-top: 48px;
     font-size: 36px;
-    letter-spacing: -0.5px;
+    // letter-spacing: -0.5px;
     text-decoration-line: underline;
+    font-family:Microsoft Sans Serif;
+    font-weight:bold;
+    
   }
 
 html {

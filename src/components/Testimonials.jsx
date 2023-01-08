@@ -42,6 +42,7 @@ const Testimonials = () => {
 }
 
 const Wrapper = styled.section`
+font-family:Microsoft Sans Serif;
   padding: 5rem 0;
   background-color: white;
   margin-bottom:0px;
@@ -77,7 +78,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family:Microsoft Sans Serif;
   margin: 0;
   background: #fff;
   color: #999;
@@ -93,7 +94,7 @@ body {
 // }
 
 p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 2rem 1rem;
   line-height: 2;
 }
@@ -105,7 +106,7 @@ section {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family:Microsoft Sans Serif;
   font-weight: 600;
   color: #333;
   font-size: 3em;.525r
@@ -125,7 +126,7 @@ h1 {
 }
 
 .service h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family:Microsoft Sans Serif;
   font-weight: 600;
   color: #56ceba;
   font-size: 2rem;

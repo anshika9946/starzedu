@@ -83,7 +83,7 @@ const Footer = () => {
 
 const Wrapper = styled.section`
   
-
+font-family:Microsoft Sans Serif;
   footer {
     padding: 14rem 0 9rem 0;
     background-color:#393836;

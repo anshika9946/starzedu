@@ -23,6 +23,7 @@ const Contact = () => {
   );
 };
 const Wrapper = styled.section`
+font-family:Microsoft Sans Serif;
   * {
   box-sizing: border-box;
   margin: 0;
@@ -30,7 +31,7 @@ const Wrapper = styled.section`
 }
 
 body {
-  font-family: "PT Sans";
+  font-family:Microsoft Sans Serif;
   background-color: #ddd;
   color: #333;
 }

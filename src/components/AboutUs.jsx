@@ -183,6 +183,7 @@ position:relative;
 }
 
 .list-style-one li{
+    font-family:Microsoft Sans Serif;
 position:relative;
 font-size:1.75rem;
 line-height:26px;

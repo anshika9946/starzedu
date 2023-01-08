@@ -72,7 +72,7 @@ const Info = () => {
     }
     
     const Wrapper = styled.section`
-    
+    font-family:Microsoft Sans Serif;
     padding: 9rem 0;
     box-sizing: border-box;
     justify-content: center;
@@ -96,7 +96,7 @@ const Info = () => {
     }
 body {
     background-color: #d6d2d2;
-    font-family: "Poppins", sans-serif;
+    font-family:Microsoft Sans Serif;
     font-weight: 300
 }
 

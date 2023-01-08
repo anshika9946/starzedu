@@ -38,6 +38,7 @@ const GoToTop = () => {
 };
 
 const Wrapper = styled.section`
+font-family:Microsoft Sans Serif;
   display: flex;
   justify-content: center;
   align-items: center;

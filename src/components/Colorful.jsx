@@ -31,14 +31,14 @@ const Colorful = () => {
 };
 
 const Wrapper = styled.section`
-
+font-family:Microsoft Sans Serif;
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: 'Roboto', sans-serif;
+  font-family:Microsoft Sans Serif;
 }
 
 body{

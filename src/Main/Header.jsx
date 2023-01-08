@@ -15,6 +15,7 @@ const Header = () => {
 };
 
 const MainHeader = styled.header`
+font-family:Microsoft Sans Serif;
   padding: 0 4.8rem;
   height: 8rem;
   background-color: #F4F4F4;

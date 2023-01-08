@@ -91,9 +91,13 @@ const Nav = styled.div`
         .navbar-link {
           &:link,
           &:visited {
+            font-family: Consolas;
+           
+            
             display: inline-block;
             text-decoration: none;
-            font-size: 1.8rem;
+            font-size: 2.2rem;
+
             text-transform: uppercase;
             color: ${({ theme }) => theme.colors.black};
             transition: color 0.3s linear;

@@ -40,10 +40,11 @@ const HeroSection = () => {
 };
 
 const Wrapper = styled.section`
-  padding: 9rem 0;
-  margin-top: 20px;
-  margin-bottom_20px;
+  // padding: 3rem 0;
+  margin-top: 4rem;
+  margin-bottom:4rem;
   background-color:#F4F4F4;
+   font-family:Microsoft Sans Serif;
 
 
   .section-hero-data {
@@ -51,7 +52,9 @@ const Wrapper = styled.section`
     flex-direction: column;
     justify-content: center;
   }
-
+p{
+  font-size:2rem;
+}
   .btn {
     background-color:#F79320;
     max-width: 16rem;
@@ -64,6 +67,7 @@ const Wrapper = styled.section`
     border: none;
     border-radius: 4px;
     width: 50%;
+    font-family:Microsoft Sans Serif;
 
    
 }
@@ -72,8 +76,9 @@ const Wrapper = styled.section`
   .hero-top-data {
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: ${({ theme }) => theme.colors.helper};
+    font-family:Microsoft Sans Serif;
   }
 
   .hero-heading {

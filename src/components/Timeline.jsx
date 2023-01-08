@@ -99,6 +99,7 @@ const Timeline = () => {
 };
 
 const Wrapper = styled.section`
+font-family:Microsoft Sans Serif;
 margin-bottom:4rem;
 .circle {
   font-weight:bold;

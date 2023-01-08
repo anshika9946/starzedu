@@ -56,7 +56,7 @@ const JustContact = () => {
 
 const Wrapper = styled.section`
 
-
+font-family:Microsoft Sans Serif;
 margin-bottom:5rem;
 margin-top:4rem;
 * {

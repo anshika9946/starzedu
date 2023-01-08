@@ -52,6 +52,7 @@ const WeOffer = () => {
     }
     
     const Wrapper = styled.section`
+    font-family:Microsoft Sans Serif;
     padding: 9rem 0;
     box-sizing: border-box;
     justify-content: center;
@@ -74,7 +75,7 @@ const WeOffer = () => {
     }
     html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family:Microsoft Sans Serif;
 }
 
 *, *:before, *:after {
