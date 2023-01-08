@@ -30,6 +30,18 @@ const slideImages = [
         <Wrapper className="section">
             {/* <Fade {...fadeProperties}> */}
         <Slide {...properties}>
+        <div className="each-slide">
+          <div className="image-container">
+          <img src='images/p7.jpg'/>
+              {/* <span>Slide 2</span> */}
+            </div>
+          </div>
+          <div className="each-slide">
+          <div className="image-container">
+          <img src='images/p8.jpg'/>
+              {/* <span>Slide 2</span> */}
+            </div>
+          </div>
           <div className="each-slide">
           <div className="image-container">
           <img src='images/p1.jpg'/>
