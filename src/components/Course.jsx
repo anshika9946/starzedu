@@ -56,7 +56,7 @@ const Wrapper = styled.section`
 padding: 9rem 0;
   box-sizing: border-box;
   justify-content: center;
-  
+  margin-bottom: 4rem;
 
 
 
@@ -88,6 +88,7 @@ body {
 
 .container {
     margin-top: 100px;
+    
     // max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -102,14 +103,14 @@ body {
 }
 
 .container .box {
-//     max-width: 1200px;
+   // max-width: 1200px;
   margin: 0 auto;
   display: grid;
   gap: 1rem;
   position: relative;
   width: 30rem;
   height: 30rem;
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
   justify-content: center;
   
 }
