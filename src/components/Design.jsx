@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 
 const Design = () => {
-	let url="https://forms.gle/YmseSjCc16c4Q81UA";
+	let url="https://forms.gle/uPSsUzfABdej7kZb7";
   return (
     <Wrapper className="section">
     
@@ -156,7 +156,7 @@ input {
 	padding: 1em;
 	width: 100%;
 	font-weight: 500;
-	background-color: #6658d3;
+	background-color: #F79320;
 	border-radius: 6px;
 	color: white;
 	border: 0;
