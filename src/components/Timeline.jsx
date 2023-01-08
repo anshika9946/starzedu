@@ -16,15 +16,15 @@ const Timeline = () => {
 
 <div className="">
   <div className="container">
-    <h2 className="pb-3 pt-2 border-bottom mb-5">Vertical Left-Right Timeline</h2>
+    <h2 className="pb-3 pt-2 border-bottom mb-5">OUR PROGRAM</h2>
     
     <div className="row align-items-center how-it-works d-flex">
       <div className="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
         <div className="circle font-weight-bold">1</div>
       </div>
       <div className="col-6">
-        <h5 id="milestone_1_date">Fully Responsive</h5>
-        <p id="milestone_1_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+        
+        <p id="milestone_1_description">Dedicated one hour session with the tutor</p>
       </div>
     </div>
   
@@ -42,8 +42,8 @@ const Timeline = () => {
    
     <div className="row align-items-center justify-content-end how-it-works d-flex">
       <div className="col-6 text-right">
-        <h5 id="milestone_2_date">Using Bootstrap</h5>
-        <p id="milestone_2_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+        
+        <p id="milestone_2_description">Flexible Class Timings</p>
       </div>
       <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
         <div className="circle font-weight-bold">2</div>
@@ -67,8 +67,8 @@ const Timeline = () => {
         <div className="circle font-weight-bold">3</div>
       </div>
       <div className="col-6">
-        <h5 id="milestone_3_date">Now with Pug and Sass</h5>
-        <p id="milestone_3_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+        
+        <p id="milestone_3_description">Highly-customized Lesson Plans</p>
       </div>
     </div>
 		 <div className="row timeline">
@@ -85,8 +85,8 @@ const Timeline = () => {
   
 	<div className="row align-items-center justify-content-end how-it-works d-flex">
       <div className="col-6 text-right">
-        <h5 id="milestone_4_date">Using Bootstrap</h5>
-        <p id="milestone_4_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+        
+        <p id="milestone_4_description">Flexibility for Parent-Teacher Interaction Anytime During The Class</p>
       </div>
       <div className="col-2 text-center morethan d-inline-flex justify-content-center align-items-center">
         <div className="circle font-weight-bold">4</div>
@@ -100,9 +100,13 @@ const Timeline = () => {
 
 const Wrapper = styled.section`
 margin-bottom:4rem;
-
 .circle {
-    padding: 40px 40px;
+  font-weight:bold;
+  font-size:6rem;
+  colour:white;
+}
+.circle {
+    padding: 60px 60px;
     border-radius: 50%;
     background-color: var(--primary);
     color: #ffbf00;

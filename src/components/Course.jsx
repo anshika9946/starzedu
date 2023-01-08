@@ -6,7 +6,7 @@ const Course = () => {
     
   return (
     <Wrapper className="section">
- <h2>Academic Tutoring</h2>
+ <h2>One-to-One Tutoring</h2>
 <div className="container">
         <div className="box">
        
@@ -65,6 +65,7 @@ h2 {
     margin-top: 48px;
     font-size: 36px;
     letter-spacing: -0.5px;
+    text-decoration-line: underline;
   }
 
 html {
