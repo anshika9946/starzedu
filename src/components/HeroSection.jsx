@@ -18,7 +18,7 @@ const HeroSection = () => {
           </p>
           <div id="container">
           <Button className="btn hireme-btn">
-            <NavLink to="/contact"> Tutoring Service </NavLink>
+            <NavLink to="/contactUs"> Contact us now </NavLink>
           </Button>
           
           <Button className="btn hireme-btn">

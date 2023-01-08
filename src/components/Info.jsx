@@ -11,44 +11,55 @@ const Info = () => {
     <div className="row">
         <div className="col-md-4">
             <div className="col max-mb-30 aos-init aos-animate" data-aos="fade-up"> 
-                    <div className="icon"> <img src="https://i.imgur.com/CBU1h2t.png" width="240"/> </div>
+                    <div className="icon"> <img src="/images/a1.png" width="200"/> </div>
                     <div className="content">
-                        <h3 className="title fz-20">Virtual Classroom</h3>
+                        <h3 className="title fz-20">Free Demo Session</h3>
                         <div className="desc">
-                            <p>Students login to the virtual classroom to complete their lessons. Teachers create the lessons ahead of time, so the students can work on the lessons at their own pace. </p>
+                            <p>Share your Requirements by contacting us to book a free 30 minutes get to know session. No credit card, no obligations, no commitments. Take a Demo Session, our student counselors/academic advisors will arrange your interactive 1:1 tutoring session with a professional tutor. Schedule Your Sessions by coordinating with your student counselor / academic advisor at the Date & Time of your convenience.</p>
                         </div>
                     </div>
                 </div>
         </div>
         <div className="col-md-4">
             <div className="col max-mb-30 aos-init aos-animate" data-aos="fade-up"> 
-                    <div className="icon"> <img src="https://i.imgur.com/Ckggrwe.png" width="220" alt=""/> </div>
+                    <div className="icon"> <img src="/images/a2.png" width="200" alt=""/> </div>
                     <div className="content">
-                        <h3 className="title fz-20">Instruction & Assessment</h3>
+                        <h3 className="title fz-20">Getting Started</h3>
                         <div className="desc">
-                            <p>The lessons include the instructional component that teaches the students what they need to know, and the assessment component which aids in the learning process and tests the student's comprehension.</p>
+                            <p>With the comfort of getting a teacher of your choice, start with the one-to-one one hour online sessions to understand the concepts. Classes can be scheduled according to the students convenience.</p>
                         </div>
                     </div>
               </div>
         </div>
         <div className="col-md-4">
             <div className="col max-mb-30 aos-init aos-animate" data-aos="fade-up"> 
-                    <div className="icon"> <img src="https://i.imgur.com/IUlCVE2.png" width="220" alt=""/> </div>
+                    <div className="icon"> <img src="/images/a3.png" width="200" alt=""/> </div>
                     <div className="content">
-                        <h3 className="title fz-20">Fully Teacher Supported</h3>
+                        <h3 className="title fz-20">Virtual Classroom</h3>
                         <div className="desc">
-                            <p>Students have a dedicated Ontario certified teacher to help with lessons and give feedback on open-ended assignments like creative writing. Teachers provide weekly optional video conference check-ins that all students in the class can attend together. Class sizes are kept small so students can get the attention they need. If students need assistance with a lesson, they email their teacher who can do one-on-one video conferencing and whiteboarding. Customized learning plans are created for students who are ahead or behind in certain subjects.</p>
+                            <p>Students login to the virtual classroom to complete their lessons. Teachers create the lessons ahead of time, so the students can work on the lessons at their own pace.</p>
                         </div>
                     </div>
                </div>
         </div>
         <div className="col-md-4">
             <div className="col max-mb-30 aos-init aos-animate" data-aos="fade-up"> 
-                    <div className="icon"> <img src="https://i.imgur.com/Ckggrwe.png" width="220" alt=""/> </div>
+                    <div className="icon"> <img src="/images/a4.png" width="200" alt=""/> </div>
                     <div className="content">
-                        <h3 className="title fz-20">Tuition</h3>
+                        <h3 className="title fz-20">Practice and Assessments</h3>
                         <div className="desc">
-                            <p>The tuition covers the regular school year. The school year for students starts the Wednesday after Labour Day weekend and goes until the end of June. For vacation time, we follow a similar for calendar as the rest of the schools in Ontario. There are no extra books or fees required.</p>
+                            <p>Regular homework is provided to students after every class. Teachers correct and discuss the problems and then move ahead with the further topics. Chapter tests and quarterly assessments are taken to analyse the learning.</p>
+                        </div> 
+                    </div>
+               </div>
+        </div>
+        <div className="col-md-4">
+            <div className="col max-mb-30 aos-init aos-animate" data-aos="fade-up"> 
+                    <div className="icon"> <img src="/images/a5.png" width="200" alt=""/> </div>
+                    <div className="content">
+                        <h3 className="title fz-20">Parent-Teacher Interaction</h3>
+                        <div className="desc">
+                            <p>Flexibility for parent-teacher interaction during the class. Monthly review sessions take place to discuss the progress and requirements of the students.</p>
                         </div> 
                     </div>
                </div>
@@ -65,9 +76,17 @@ const Info = () => {
     padding: 9rem 0;
     box-sizing: border-box;
     justify-content: center;
-    
-  
-  
+    img{
+        margin-bottom:3rem;
+        margin-top:3rem;
+
+    }
+   h3{
+    font-size:2.2rem;
+   }
+  p{
+    font-size:2rem;
+  }
   
   h1 {
       margin:auto;
@@ -103,7 +122,7 @@ body {
     -webkit-transition: all .25s cubic-bezier(.645, .045, .355, 1);
     -o-transition: all .25s cubic-bezier(.645, .045, .355, 1);
     transition: all .25s cubic-bezier(.645, .045, .355, 1);
-    border-radius: 5px;
+    border-radius: 1px;
     z-index: 99;
     text-decoration: none
     margin-bottom: 20px;
@@ -132,7 +151,7 @@ body {
 }
 
 .icon-box .content .title {
-    font-size: 24px;
+    font-size: 30px;
     line-height: 1.5;
     margin: 0;
     color: #3f3a64
@@ -156,7 +175,7 @@ p:last-child {
 }
 
 .icon-box .content .link {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 1;
     display: -webkit-inline-box;
