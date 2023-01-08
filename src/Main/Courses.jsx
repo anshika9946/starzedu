@@ -17,7 +17,7 @@ const Courses = () => {
       {/* <WeOffer/> */}
       {/* <GetStarted/> */}
      
-      <Timeline/>
+      {/* <Timeline/> */}
 
     </>
   );

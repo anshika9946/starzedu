@@ -123,11 +123,11 @@ ul {
 }
 img {
 max-width: 100%;
-height: auto;
+height: 50rem;
 }
 section {
     padding: 60px 0;
-   /* min-height: 100vh;*/
+//  min-height: 100vh;
 }
 
 .sec-title{
@@ -156,15 +156,15 @@ font-weight: 600;
 padding-bottom:2rem;
 }
 
-.sec-title h2:before{
-position:absolute;
-content:'';
-left:0px;
-bottom:0px;
-width:50px;
-height:3px;
-background-color:#d1d2d6;
-}
+// .sec-title h2:before{
+// position:absolute;
+// content:'';
+// left:0px;
+// bottom:0px;
+// width:50px;
+// height:3px;
+// background-color:#d1d2d6;
+// }
 
 
 
