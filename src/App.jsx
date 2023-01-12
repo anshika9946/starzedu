@@ -11,6 +11,7 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./Main/GlobalStyle";
 import Error from "./extra/Error";
 import GoToTop from "./Main/GoToTop";
+import ScrollToTop from "./ScrollToTop";
 
 
 
@@ -43,6 +44,7 @@ const App = () => {
       <GoToTop />
       <BrowserRouter>
         <Header />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
