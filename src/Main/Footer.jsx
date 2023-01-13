@@ -61,7 +61,11 @@ const Footer = () => {
               <p>PRIVACY POLICY</p>
               <p>TERMS & CONDITIONS</p>
             </div>
+           
         </div>
+        <div className="copyright">
+        Copyright ©️ {new Date().getFullYear()} - Starzedu Classes
+    </div>
 
         {/* bottom section  */}
         {/* <div className="footer-bottom--section"> */}
@@ -123,7 +127,15 @@ font-family:Microsoft Sans Serif;
       }
     }
   }
+  .copyright{
+    text-align: center;
 
+    font-family: 'Roboto', sans-serif;
+    font-size:2rem;
+    margib-bottom:0;
+    color:white;
+    margin-top:4rem;
+}
   @media (max-width: ${({ theme }) => theme.media.mobile}) {
     .contact-short {
       max-width: 95vw;
