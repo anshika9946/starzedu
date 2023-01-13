@@ -144,16 +144,18 @@ const Nav = styled.div`
         left: 0;
         background-color: #fff;
 
-        display: flex;
+        // display: flex;
         justify-content: center;
         align-content: center;
         flex-direction: column;
         text-align: center;
 
-        transform: translateX(100%);
+        // transform: translateX(100%);
 
-        visibility: hidden;
-        opacity: 0;
+        // visibility: hidden;
+        // opacity: 0;
+
+        display:none;
 
         li {
           .navbar-link {
@@ -185,10 +187,11 @@ const Nav = styled.div`
       }
 
       .active .navbar-list {
-        visibility: visible;
-        opacity: 1;
-        transform: translateX(0);
-        z-index: 999;
+        // visibility: visible;
+        // opacity: 1;
+        display:flex;
+        // transform: translateX(0);
+         z-index: 999;
       }
     }
   `;
