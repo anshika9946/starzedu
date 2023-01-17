@@ -11,7 +11,7 @@ const JustContact = () => {
     <div className="container">
   <div className='hello'>
     <h2>Contact Us</h2>
-    <p>Phone: +91 8882073991 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Mail: Starzeduclasses@gmail.com</p>
+    <p>Phone: +91 8882073991 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Mail: support@starzedu.com</p>
   </div>
   <div className="row">
     <div className="column">
