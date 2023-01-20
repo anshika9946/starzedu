@@ -17,7 +17,7 @@ const Navbar = () => {
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/">
-              Home
+              HOME
             </NavLink>
           </li>
           <li>
@@ -25,7 +25,7 @@ const Navbar = () => {
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/about">
-              About
+              ABOUT
             </NavLink>
           </li>
           <li>
@@ -33,7 +33,7 @@ const Navbar = () => {
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/courses">
-              Courses
+              COURSES
             </NavLink>
           </li>
           <li>
@@ -41,7 +41,7 @@ const Navbar = () => {
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/career">
-              Careers
+              CAREERS
             </NavLink>
           </li>
           <li>
@@ -49,7 +49,7 @@ const Navbar = () => {
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/contactUs">
-              Contact Us
+              CONTACT US
             </NavLink>
             </li>
           <li>
@@ -57,7 +57,7 @@ const Navbar = () => {
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/contact">
-              Register for Demo
+              <button class="btn">Book a Demo</button>
             </NavLink>
           </li>
         </ul>
@@ -83,6 +83,7 @@ const Nav = styled.div`
     .navbar-list {
       display: flex;
       gap: 4.8rem;
+      margin-top:2rem;
       
 
       li {
@@ -98,7 +99,7 @@ const Nav = styled.div`
             text-decoration: none;
             font-size: 2.2rem;
 
-            text-transform: uppercase;
+            // text-transform: uppercase;
             color: ${({ theme }) => theme.colors.black};
             transition: color 0.3s linear;
           }
@@ -110,6 +111,32 @@ const Nav = styled.div`
         }
       }
     }
+
+    // .btn {
+    //   background-color: DodgerBlue; /* Blue background */
+    //   border: none; /* Remove borders */
+    //   color: white; /* White text */
+    //   padding: 12px 16px; /* Some padding */
+    //   font-size: 16px; /* Set a font size */
+    //   cursor: pointer; /* Mouse pointer on hover */
+    // }
+    
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: rgb(247, 147, 32);
+    }
+   
+   .btn{ background-color: #0078CD;
+   margin-top:-6rem;
+  border: none;
+  border-radius:1rem;
+  color: white;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
 
     .mobile-navbar-btn {
       display: none;

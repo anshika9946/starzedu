@@ -236,6 +236,7 @@ overflow: hidden;
 letter-spacing: 0.02em;
 background-color: #F79320;
 margin-top:2rem;
+border-radius:1rem;
 }
 
 .btn-style-one:hover{

@@ -89,7 +89,7 @@ p{
   }
 
   input[type=submit] {
-    background-color: #1B83FE;
+    background-color: rgb(247, 147, 32);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -97,7 +97,7 @@ p{
   }
   
   input[type=submit]:hover {
-    background-color: #1B83E0;
+    background-color: rgb(247, 135, 32);
   }
   
   /* Style the container/contact section */
