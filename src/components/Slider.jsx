@@ -30,22 +30,27 @@ const slideImages = [
         <Wrapper className="section">
             {/* <Fade {...fadeProperties}> */}
         <Slide {...properties}>
+
         <div className="each-slide">
+
           <div className="image-container">
+          <NavLink to="/contact"> 
           <img src='images/p4.jpg'/>
-              {/* <span>Slide 1</span> */}
+          </NavLink>
             </div>
           </div>
           <div className="each-slide">
           <div className="image-container">
+          <NavLink to="/contact"> 
           <img src='images/p8.jpg'/>
-              {/* <span>Slide 2</span> */}
+          </NavLink>
             </div>
           </div>
           <div className="each-slide">
           <div className="image-container">
+          <NavLink to="/contact"> 
           <img src='images/p1.jpg'/>
-              {/* <span>Slide 1</span> */}
+          </NavLink>
             </div>
           </div>
          
@@ -54,8 +59,9 @@ const slideImages = [
        
           <div className="each-slide">
           <div className="image-container">
+          <NavLink to="/contact"> 
           <img src='images/p5.jpg'/>
-              {/* <span>Slide 2</span> */}
+          </NavLink>
             </div>
           </div>
           
