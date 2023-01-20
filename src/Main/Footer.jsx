@@ -14,17 +14,43 @@ const Footer = () => {
   <h3>Starzedu<span>Classes</span></h3>
 
   <p className="footer-links">
-    <a href="#" className="link-1">Home</a>
+            <NavLink
+              className="navbar-link"
+              to="/">
+              Home |
+            </NavLink>
     
-    <a href="#">Blog</a>
+    <NavLink
+              className="navbar-link"
+              to="/about">
+              About |
+            </NavLink>
+    <NavLink
+              className="navbar-link"
+              to="/courses">
+              Courses |
+            </NavLink>
   
-    <a href="#">Pricing</a>
-  
-    <a href="#">About</a>
+    <NavLink
+              className="navbar-link"
+              to="/career">
+              Career |
+            </NavLink>
     
-    <a href="#">Faq</a>
-    
-    <a href="#">Contact</a>
+    <NavLink
+              className="navbar-link"
+              to="/contactUs">
+              ContactUs
+            </NavLink>
+    <br/>
+    <br/>
+     <NavLink
+              className="navbar-link"
+             
+              to="/contact">
+              <button className="btn">Book a FREE Demo</button>
+            </NavLink>
+    {/* <a href="#">Book a Demo</a> */}
   </p>
 
 </div>
@@ -57,10 +83,10 @@ const Footer = () => {
 
   <div className="footer-icons">
 
-    <a href="#"> <FaWhatsapp className="icons" /></a>
-    <a href="#"> <FaInstagram className="icons" /></a>
-    <a href="#"> <FaFacebook className="icons" /></a>
-    <a href="#"> <FaEnvelope className="icons" /></a>
+    <a href="https://api.whatsapp.com/send?phone=+918882073991&text=Hello%20I%20wish%20to%20book%20a%20free%20demo"> <FaWhatsapp className="icons" /></a>
+    <a href="https://www.instagram.com/starzedu/"> <FaInstagram className="icons" /></a>
+    <a href="https://www.facebook.com/profile.php?id=100089239283006"> <FaFacebook className="icons" /></a>
+    <a href="mailto:support@starzedu.com"> <FaEnvelope className="icons" /></a>
 
   </div>
 
@@ -85,6 +111,22 @@ font-family:Microsoft Sans Serif;
 
 * {
   font-family: Open Sans;
+}
+
+.btn:hover {
+  background-color: rgb(247, 147, 32);
+}
+
+.btn{ background-color: #0078CD;
+margin-top:-6rem;
+border: none;
+border-radius:1rem;
+color: white;
+padding: 1.5rem 2rem;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
 }
 
 .footer-distributed{
@@ -189,7 +231,7 @@ font-family:Microsoft Sans Serif;
 }
 
 .footer-distributed .footer-links a:before {
-  content: "|";
+
   font-weight:300;
   font-size: 20px;
   left: 0;
@@ -209,9 +251,9 @@ font-family:Microsoft Sans Serif;
 }
 
 .footer-distributed .footer-company-about{
-	line-height: 20px;
-	color:  #92999f;
-	font-size: 13px;
+	line-height: 2rem;
+	color: white;
+	font-size:1.5rem;
 	font-weight: normal;
 	margin: 0;
 }
