@@ -57,7 +57,7 @@ const Navbar = () => {
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/contact">
-              <button class="btn">Book a Demo</button>
+              <button className="btn">Book a Demo</button>
             </NavLink>
           </li>
         </ul>

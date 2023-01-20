@@ -2,158 +2,276 @@ import React from "react";
 import styled from "styled-components";
 import { Button } from "../styles/Button";
 import { NavLink } from "react-router-dom";
-import { FaLinkedin, FaInstagram, FaTwitter ,FaFacebook} from "react-icons/fa";
-
+import { FaInstagram, FaEnvelope,FaPhone, FaWhatsapp, FaFacebook} from "react-icons/fa";
 const Footer = () => {
   return (
     <Wrapper className="section">
-      
-      {/* footer section  */}
+  
+<footer className="footer-distributed">
 
-      <footer>
-        <div className="container grid grid-four-column">
-          <div className="footer-about">
-            <h3>Starzedu Classes</h3>
-            <p> We prioritize getting the concepts right over rushing through the curriculum. Our qualified tutors understand your child’s individual needs and kindle their natural curiosity to make the learning experience fun and stress-free.
+<div className="footer-left">
 
-</p>
+  <h3>Starzedu<span>Classes</span></h3>
+
+  <p className="footer-links">
+    <a href="#" className="link-1">Home</a>
+    
+    <a href="#">Blog</a>
+  
+    <a href="#">Pricing</a>
+  
+    <a href="#">About</a>
+    
+    <a href="#">Faq</a>
+    
+    <a href="#">Contact</a>
+  </p>
+
+</div>
+
+<div className="footer-center">
+
+  <div>
+  <FaPhone className="icons" />
+    <p>+91 8882073991</p>
+  </div>
+
+  <div>
+  <FaWhatsapp className="icons" />
+    <p>+91 8882073991</p>
+  </div>
+
+  <div>
+  <FaEnvelope className="icons" />
+    <p><a href="mailto:support@starzedu.com">support@starzedu.com</a></p>
+  </div>
+
+</div>
+
+<div className="footer-right">
+
+  <p className="footer-company-about">
+    <span>About the company</span>
+    We prioritize getting the concepts right over rushing through the curriculum. Our qualified tutors understand your child’s individual needs and kindle their natural curiosity to make the learning experience fun and stress-free.
+  </p>
+
+  <div className="footer-icons">
+
+    <a href="#"> <FaWhatsapp className="icons" /></a>
+    <a href="#"> <FaInstagram className="icons" /></a>
+    <a href="#"> <FaFacebook className="icons" /></a>
+    <a href="#"> <FaEnvelope className="icons" /></a>
+
+  </div>
+
+</div>
+<hr/>
+<div >
+            <p className="copyright">Copyright &copy; 2022, Starzedu, All Rights Reserved.
+         
+            </p>
           </div>
 
-          {/* 2nd column
-          <div className="footer-subscribe">
-            <h3>Subscribe to get important updates</h3>
-            <form action="#">
-              <input
-                type="email"
-                required
-                autoComplete="off"
-                placeholder="Email"
-              />
-              <input type="submit" value="Subscribe" />
-            </form>
-          </div> */}
-
-          {/* 3rs column  */}
-          <div className="footer-social">
-            <h3>Follows Us</h3>
-            <div className="footer-social--icons">
-              <div>
-                <FaFacebook className="icons" />
-              </div>
-              <div>
-                <FaInstagram className="icons" />
-              </div>
-              <div>
-                {/* <a
-                  href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                  target="_blank"> */}
-                  <FaTwitter className="icons" />
-                {/* </a> */}
-              </div>
-              <div>
-                <FaLinkedin className="icons" />
-              </div>
-            </div>
-          </div>
-
-          {/* 4th column  */}
-          <div className="footer-contact">
-              <p>PRIVACY POLICY</p>
-              <p>TERMS & CONDITIONS</p>
-            </div>
-           
-        </div>
-        <div className="copyright">
-        Copyright ©️ {new Date().getFullYear()} - Starzedu Classes
-    </div>
-
-        {/* bottom section  */}
-        {/* <div className="footer-bottom--section"> */}
-          {/* <hr /> */}
-          {/* <div className="container grid grid-two-column"> */}
-            {/* <p>
-              @{new Date().getFullYear()}   StarzEduClasses
-            </p> */}
-            {/* <div>
-              <p>PRIVACY POLICY</p>
-              <p>TERMS & CONDITIONS</p>
-            </div>
-          </div> */}
-        {/* </div> */}
-      </footer>
-    </Wrapper>
+</footer>
+</Wrapper>
   );
 };
 
 const Wrapper = styled.section`
   
 font-family:Microsoft Sans Serif;
-  footer {
-    padding: 14rem 0 9rem 0;
-    background-color:#393836;
 
-    h3 {
-      color: ${({ theme }) => theme.colors.hr};
-      margin-bottom: 2.4rem;
-    }
-    p {
-      color: ${({ theme }) => theme.colors.white};
-    }
-    .footer-social--icons {
-      display: flex;
-      gap: 2rem;
 
-      div {
-        padding: 1rem;
-        border-radius: 50%;
-        border: 2px solid ${({ theme }) => theme.colors.white};
 
-        .icons {
-          color: ${({ theme }) => theme.colors.white};
-          font-size: 2.4rem;
-          position: relative;
-          cursor: pointer;
-        }
-      }
-    }
-
-    .footer-bottom--section {
-      padding-top: 9rem;
-
-      hr {
-        margin-bottom: 2rem;
-        color: ${({ theme }) => theme.colors.hr};
-        height: 0.1px;
-      }
-    }
-  }
-  .copyright{
-    text-align: center;
-
-    font-family: 'Roboto', sans-serif;
-    font-size:2rem;
-    margib-bottom:0;
-    color:white;
-    margin-top:4rem;
+* {
+  font-family: Open Sans;
 }
-  @media (max-width: ${({ theme }) => theme.media.mobile}) {
-    .contact-short {
-      max-width: 95vw;
-      padding: 2rem 0rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
 
-      .contact-short-btn {
-        text-align: center;
-        justify-self: flex-start;
-      }
-    }
+.footer-distributed{
+	background: rgb(57, 56, 54);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 7rem;
+}
 
-    footer .footer-bottom--section {
-      padding-top: 3.2rem;
-    }
-  }
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #E62C54;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center .icons{
+	background-color: rgb(57,56,54);
+	color: #ffffff;
+	font-size: 1rem;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 3rem;
+	margin: 1rem;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center .icons{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #E62C54;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+.copyright{
+  margin-top:2rem;
+  text-align:center;
+  color:white;
+}
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
 `;
 
 export default Footer;
