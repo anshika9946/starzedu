@@ -4,6 +4,7 @@ import Testimonials from "../components/Testimonials";
 import GetStarted from "../components/GetStarted";
 import Slider from "../components/Slider";
 import Course from "../components/Course";
+import JustContact from "./JustContact";
 
 const Home = () => {
 
@@ -14,7 +15,8 @@ const Home = () => {
     <Course/>
       <HeroSection /> 
       <Testimonials />
-      <GetStarted/>
+      <JustContact/>
+    {/* <GetStarted/> */}
     </>
   );
 };

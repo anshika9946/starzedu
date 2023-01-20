@@ -59,7 +59,12 @@ font-family:Microsoft Sans Serif;
     border-radius: 1rem;
     font-size:2rem;
   }
+  @media (max-width: ${({ theme }) => theme.media.mobile}) {
+    .grid grid-two-column {
+      text-align: center;
 
+    }
+  }
   
 `;
 
