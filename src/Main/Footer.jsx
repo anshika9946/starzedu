@@ -83,10 +83,10 @@ const Footer = () => {
 
   <div className="footer-icons">
 
-    <a href="https://api.whatsapp.com/send?phone=+918882073991&text=Hello%20I%20wish%20to%20book%20a%20free%20demo"> <FaWhatsapp className="icons" /></a>
-    <a href="https://www.instagram.com/starzedu/"> <FaInstagram className="icons" /></a>
-    <a href="https://www.facebook.com/profile.php?id=100089239283006"> <FaFacebook className="icons" /></a>
-    <a href="mailto:support@starzedu.com"> <FaEnvelope className="icons" /></a>
+    <a href="https://api.whatsapp.com/send?phone=+918882073991&text=Hello%20I%20wish%20to%20book%20a%20free%20demo" target="_blank"> <FaWhatsapp className="icons" /></a>
+    <a href="https://www.instagram.com/starzedu/" target="_blank"> <FaInstagram className="icons" /></a>
+    <a href="https://www.facebook.com/profile.php?id=100089239283006" target="_blank"> <FaFacebook className="icons" /></a>
+    <a href="mailto:support@starzedu.com" target="_blank"> <FaEnvelope className="icons" /></a>
 
   </div>
 
