@@ -74,13 +74,17 @@ font-family:Microsoft Sans Serif;
       }
     }
   }
-
-  @media (max-width: ${({ theme }) => theme.media.mobile}) {
-    .top-btn {
-      right: 0;
-      left: 40%;
+  @media screen and (max-width: 767px) {
+    .top-btn  {
+        margin-top: 10px;
     }
   }
+  // @media (max-width: ${({ theme }) => theme.media.mobile}) {
+  //   .top-btn {
+  //     right: 0;
+  //     left: 40%;
+  //   }
+  // }
 `;
 
 export default GoToTop;
