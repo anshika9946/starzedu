@@ -108,11 +108,6 @@ const Wrapper = styled.section`
 font-family:Microsoft Sans Serif;
 
 
-
-* {
-  font-family: Open Sans;
-}
-
 .btn:hover {
   background-color: rgb(247, 147, 32);
 }
@@ -127,6 +122,7 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 16px;
+cursor: pointer;
 }
 
 .footer-distributed{

@@ -136,6 +136,7 @@ const Nav = styled.div`
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  cursor: pointer;
   }
 
     .mobile-navbar-btn {
