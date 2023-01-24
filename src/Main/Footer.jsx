@@ -130,7 +130,7 @@ cursor: pointer;
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
+	font: bold 16px Microsoft Sans Serif;
 	padding: 7rem;
 }
 
@@ -151,7 +151,7 @@ cursor: pointer;
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Open Sans', cursive;
+	font: normal 36px Microsoft Sans Serif;
 	margin: 0;
 }
 
@@ -292,7 +292,7 @@ cursor: pointer;
 @media (max-width: 880px) {
 
 	.footer-distributed{
-		font: bold 14px sans-serif;
+		font: bold 14px Microsoft Sans Serif;
 	}
 
 	.footer-distributed .footer-left,
