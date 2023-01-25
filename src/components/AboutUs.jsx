@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 
 const AboutUs = () => {
-	let url="https://forms.gle/ZSCYXhWKxUCZEoLP8";
+	let url="https://forms.gle/apxDzx74iRLgEhdj7";
   return (
     <Wrapper className="section">
    
