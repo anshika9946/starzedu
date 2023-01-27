@@ -11,7 +11,7 @@ const WeOffer = () => {
     <div className="panel pricing-table">
       
       <div className="pricing-plan">
-        <img src="https://s22.postimg.cc/8mv5gn7w1/paper-plane.png" alt="" className="pricing-img"/>
+        <img src="https://s22.postimg.cc/8mv5gn7w1/paper-plane.png" alt="courses" className="pricing-img"/>
         <h2 className="pricing-header">Personal</h2>
         <ul className="pricing-features">
           <li className="pricing-features-item">Custom domains</li>
@@ -22,7 +22,7 @@ const WeOffer = () => {
       </div>
       
       <div className="pricing-plan">
-        <img src="https://s28.postimg.cc/ju5bnc3x9/plane.png" alt="" className="pricing-img"/>
+        <img src="https://s28.postimg.cc/ju5bnc3x9/plane.png" alt="courses" className="pricing-img"/>
         <h2 className="pricing-header">Small team</h2>
         <ul className="pricing-features">
           <li className="pricing-features-item">Never sleeps</li>
@@ -33,7 +33,7 @@ const WeOffer = () => {
       </div>
       
       <div className="pricing-plan">
-        <img src="https://s21.postimg.cc/tpm0cge4n/space-ship.png" alt="" className="pricing-img"/>
+        <img src="https://s21.postimg.cc/tpm0cge4n/space-ship.png" alt="courses" className="pricing-img"/>
         <h2 className="pricing-header">Enterprise</h2>
         <ul className="pricing-features">
           <li className="pricing-features-item">Dedicated</li>

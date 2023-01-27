@@ -35,21 +35,21 @@ const slideImages = [
 
           <div className="image-container">
           <NavLink to="/contact"> 
-          <img src='images/p4.jpg'/>
+          <img src='images/p4.jpg' alt="poster"/>
           </NavLink>
             </div>
           </div>
           <div className="each-slide">
           <div className="image-container">
           <NavLink to="/contact"> 
-          <img src='images/p8.jpg'/>
+          <img src='images/p8.jpg' alt="poster"/>
           </NavLink>
             </div>
           </div>
           <div className="each-slide">
           <div className="image-container">
           <NavLink to="/contact"> 
-          <img src='images/p1.jpg'/>
+          <img src='images/p1.jpg' alt="poster"/>
           </NavLink>
             </div>
           </div>
@@ -60,7 +60,7 @@ const slideImages = [
           <div className="each-slide">
           <div className="image-container">
           <NavLink to="/contact"> 
-          <img src='images/p5.jpg'/>
+          <img src='images/p5.jpg' alt="poster"/>
           </NavLink>
             </div>
           </div>

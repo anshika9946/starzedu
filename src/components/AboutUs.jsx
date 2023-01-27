@@ -13,7 +13,7 @@ const AboutUs = () => {
 
              <div className="column">
              <div className="inner-column wow fadeInLeft">
-                        <figure className="image-1"><a href="#" className="lightbox-image" data-fancybox="images"><img src="images/About.png" alt=""/></a></figure>
+                        <figure className="image-1"><a href="#" className="lightbox-image" data-fancybox="images"><img src="images/About.png" alt="Teacher teaching image"/></a></figure>
                         
                     </div>
 </div>

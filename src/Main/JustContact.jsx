@@ -15,7 +15,7 @@ const JustContact = () => {
   </div>
   <div className="row">
     <div className="column">
-      <img src="images/ans1.png" />
+      <img src="images/ans1.png"  alt="contact Us image"/>
     </div>
     <div className="column">
       <form  action="https://formspree.io/f/xyyaywgy"
