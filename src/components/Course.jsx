@@ -11,37 +11,37 @@ const Course = () => {
         <div className="box">
        
             <div className="imgBox">
-                <img src="images/math.jpg" alt=""/>
+                <img src="images/math.jpg" alt="Maths course"/>
             </div>
            
         </div>
     <div className="box">
             <div className="imgBox">
-                <img src="images/science.jpg" alt=""/>
+                <img src="images/science.jpg" alt="Science course"/>
             </div>
            
         </div>
    <div className="box">
             <div className="imgBox">
-                <img src="images/socal.jpg" alt=""/>
+                <img src="images/socal.jpg" alt="Social science course"/>
             </div>
            
         </div>
     <div className="box">
             <div className="imgBox">
-                <img src="images/coding.jpg" alt=""/>
+                <img src="images/coding.jpg" alt="Coding course"/>
             </div>
            
         </div>
         <div className="box">
             <div className="imgBox">
-                <img src="images/english.jpg" alt=""/>
+                <img src="images/english.jpg" alt="English Course"/>
             </div>
             
         </div>
         <div className="box">
             <div className="imgBox">
-                <img src="images/lang.jpg" alt=""/>
+                <img src="images/lang.jpg" alt="French Course"/>
             </div>
            
         </div>
