@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 
@@ -8,40 +9,42 @@ const Course = () => {
     <Wrapper className="section">
  <h2>One-to-One Tutoring</h2>
 <div className="container">
+
         <div className="box">
        
             <div className="imgBox">
-                <img src="images/math.jpg" alt="Maths course"/>
+            <NavLink to="/contact"><img src="images/math.jpg" alt="Maths course"/></NavLink>
             </div>
            
         </div>
+        
     <div className="box">
             <div className="imgBox">
-                <img src="images/science.jpg" alt="Science course"/>
+            <NavLink to="/contact"><img src="images/science.jpg" alt="Science course"/></NavLink>
             </div>
            
         </div>
    <div className="box">
             <div className="imgBox">
-                <img src="images/socal.jpg" alt="Social science course"/>
+            <NavLink to="/contact"><img src="images/socal.jpg" alt="Social science course"/></NavLink>
             </div>
            
         </div>
     <div className="box">
             <div className="imgBox">
-                <img src="images/coding.jpg" alt="Coding course"/>
+            <NavLink to="/contact"><img src="images/coding.jpg" alt="Coding course"/></NavLink>
             </div>
            
         </div>
         <div className="box">
             <div className="imgBox">
-                <img src="images/english.jpg" alt="English Course"/>
+            <NavLink to="/contact"><img src="images/english.jpg" alt="English Course"/></NavLink>
             </div>
             
         </div>
         <div className="box">
             <div className="imgBox">
-                <img src="images/lang.jpg" alt="French Course"/>
+            <NavLink to="/contact"><img src="images/lang.jpg" alt="French Course"/></NavLink>
             </div>
            
         </div>
