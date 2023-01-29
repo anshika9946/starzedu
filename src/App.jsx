@@ -12,6 +12,8 @@ import { GlobalStyle } from "./Main/GlobalStyle";
 import Error from "./extra/Error";
 import GoToTop from "./Main/GoToTop";
 import ScrollToTop from "./ScrollToTop";
+import Terms from "./components/Terms";
+import Policy from "./components/Policy";
 
 
 
@@ -52,6 +54,8 @@ const App = () => {
           <Route path="/career" element={<Career />} />
           <Route path="/contactUs" element={<JustContact />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/terms&Conditions" element={<Terms />} />
+          <Route path="/policy" element={<Policy />} />
           <Route path="*" element={<Error />} />
         </Routes>
 
