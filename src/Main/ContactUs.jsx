@@ -6,6 +6,7 @@ import WeOffer from "../components/WeOffer";
 import Contact from "../components/Contact";
 import Colorful from "../components/Colorful";
 import JustContact from "./JustContact";
+import Formm from "../components/Formm";
 
 //import { useGlobalContext } from "./context";
 
@@ -13,8 +14,10 @@ const ContactUs = () => {
 
   return (
     <>
+    <Formm/>
 <Design/>
 <Testimonials/>
+
 
     </>
   );
