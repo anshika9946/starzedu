@@ -18,10 +18,10 @@ const JustContact = () => {
       <img src="images/ans1.png"  alt="contact Us image"/>
     </div>
     <div className="column">
-      {/* <form  action="https://formspree.io/f/xyyaywgy"
-  method="POST"> */}
-  <form name="contact" method="POST" data-netlify="true">
-    
+      <form  action="https://formspree.io/f/xyyaywgy"
+  method="POST">
+  {/* <form name="contact" method="POST" data-netlify="true"> */}
+
         <label htmlFor="fname">Name</label>
         <input type="text" id="fname" name="name" placeholder="Your name.." required/>
         <br/>
