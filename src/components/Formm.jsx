@@ -21,8 +21,7 @@ const Formm = () => {
       <form 
       name="contact v1"
       method="post"
-      data-netlify="true"
-      onSubmit="submit">
+      data-netlify="true">
         <input type="hidden" name="form-name" value="contact v1"/>
   {/* <form name="contact" method="POST" data-netlify="true"> */}
 
