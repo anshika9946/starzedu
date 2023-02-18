@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 
 
-const Formm = () => {
+const FormP = () => {
 
 	
   return (
@@ -12,12 +12,9 @@ const Formm = () => {
     <div className="container">
   <div className='hello'>
     <h2>BOOK A FREE DEMO</h2>
-    <p>Phone: +91 8882073991 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Mail: support@starzedu.com</p>
+   
   </div>
-  <div className="row">
-    <div className="column">
-      <img src="images/contactt.png"  alt="contact Us image"/>
-    </div>
+    
     <div className="column">
       <form  action="https://formspree.io/f/xoqzeodl"
   method="POST">
@@ -26,6 +23,7 @@ const Formm = () => {
         <label htmlFor="fname">Student's Name</label>
         <input type="text" id="fname" name=" student name" placeholder="Your name.." required/>
         <br/>
+
         <label htmlFor="fname">Parent's Name</label>
         <input type="text" id="fname" name="parent name" placeholder="Your name.." required/>
         <br/>
@@ -251,8 +249,7 @@ const Formm = () => {
 		<option    value="969">Yemen (North)(+969)</option>
 		<option    value="967">Yemen (South)(+967)</option>
 		<option    value="260">Zambia (+260)</option>
-		<option    value="263">Zimbabwe (+263)</option>
-        {/* Add more options as needed */}
+		<option    value="263">Zimbabwe (+263)</option>    {/* Add more options as needed */}
       </select>
       <label htmlFor="phoneNumber">Phone number:</label>
       <input type="tel" id="phoneNumber" name="phone" placeholder='Add number'/>
@@ -296,7 +293,6 @@ const Formm = () => {
         <input type="submit" value="Submit" target="_blank" />
       </form>
     </div>
-  </div>
 </div>
     </Wrapper>
     );
@@ -305,8 +301,6 @@ const Formm = () => {
 const Wrapper = styled.section`
 
 font-family:Microsoft Sans Serif;
-margin-bottom:5rem;
-margin-top:4rem;
 * {
     box-sizing: border-box;
   }
@@ -314,32 +308,32 @@ margin-top:4rem;
     text-align:center;
   }
 h2{
-    margin-top:4rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
 }
 p{
-  font-size:2rem;
+  font-size:1.5rem;
 }
   img{
     width:100%;
   }
   #subject{
-    height:170px;
+    height:40px;
   }
   /* Style inputs */
   input, select, textarea {
     width: 100%;
-    padding: 12px;
+    padding: 4px;
     border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    border-radius:.75rem;
+    margin-top: 10px;
+    margin-bottom: 4px;
+
   }
 
   input[type=submit] {
     background-color: rgb(247, 147, 32);
     color: white;
-    padding: 12px 20px;
+    padding: 3px 5px;
     border: none;
     cursor: pointer;
   }
@@ -350,17 +344,22 @@ p{
   
   /* Style the container/contact section */
   .container {
-    border-radius: 5px;
+    border-radius: 1.25px;
     background-color: #f2f2f2;
-    padding: 10px;
+    padding: 3px;
   }
   
   /* Create two columns that float next to eachother */
   .column {
     float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
+    width: 100%;
+    margin-top: 5px;
+    padding: 1.25px;
+    display:block;
+  text-align:center;
+  width:450px;
+margin: 0 auto;
+
   }
   label{
     font-size:2rem;
@@ -368,17 +367,25 @@ p{
   /* Clear floats after the columns */
   .row:after {
     content: "";
-    display: table;
+  
     clear: both;
   }
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
+    h2{
+        font-size:2.5rem;
+        font-weight:bold;
+    }
     .column, input[type=submit] {
-      width: 100%;
+      width: 50%;
       margin-top: 0;
+      display:block;
+      text-align:center;
+      width:300px;
+    margin: 0 auto;
     }
   }
 `;
 
-export default Formm;
+export default FormP;

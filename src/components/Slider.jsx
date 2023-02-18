@@ -76,6 +76,7 @@ const slideImages = [
       )
   }
   const Wrapper = styled.section`
+
   font-family:Microsoft Sans Serif;
   margin-top: 20px;
   .slide-container {
@@ -107,10 +108,13 @@ const slideImages = [
   .each-slide .image-container {
     width: 100%;
     overflow: hidden;
+
   }
   
   .each-slide .image-container img {
     width: 100%;
+
+
   }
   
   

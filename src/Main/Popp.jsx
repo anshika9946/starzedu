@@ -44,6 +44,7 @@
 
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
+import FormP from "../components/FormP";
 
 const Popp = () =>{
   const [showPopup, setShowPopup] = useState(false);
@@ -64,7 +65,7 @@ const Popp = () =>{
             <div className="close" onClick={togglePopup}>
               &times;
             </div>
-            <div className="content">Book A FREE DEMO Now!</div>
+            <FormP/>
           </div>
         </div>
       )}
@@ -72,6 +73,7 @@ const Popp = () =>{
   );
 }
 const Wrapper = styled.section`
+
 .popup {
     position: fixed;
     top: 0;
@@ -82,6 +84,7 @@ const Wrapper = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index:99999;
   }
   
   .box {
@@ -89,14 +92,16 @@ const Wrapper = styled.section`
     border: 1px solid #000;
     padding: 20px;
     position: relative;
+    z-index: 1;
   }
   
   .close {
     position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 20px;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
     cursor: pointer;
+    z-index: 1;
   }
   
   .content {
