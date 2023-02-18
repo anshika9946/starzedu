@@ -7,7 +7,7 @@ import Contact from "../components/Contact";
 import Colorful from "../components/Colorful";
 import JustContact from "./JustContact";
 import Formm from "../components/Formm";
-import Popp from "./Popp";
+
 
 
 //import { useGlobalContext } from "./context";
@@ -16,7 +16,7 @@ const ContactUs = () => {
 
   return (
     <>
-    <Popp/>
+   
    
     <Formm/>
 {/* <Design/> */}
