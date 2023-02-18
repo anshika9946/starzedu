@@ -7,6 +7,7 @@ import Contact from "../components/Contact";
 import Colorful from "../components/Colorful";
 import JustContact from "./JustContact";
 import Formm from "../components/Formm";
+import FormP from "../components/FormP";
 
 
 
@@ -17,7 +18,7 @@ const ContactUs = () => {
   return (
     <>
    
-   
+   <FormP/>
     <Formm/>
 {/* <Design/> */}
 <Testimonials/>

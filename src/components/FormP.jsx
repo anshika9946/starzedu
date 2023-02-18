@@ -10,12 +10,13 @@ const FormP = () => {
     
 
     <div className="container">
-  <div className='hello'>
-    <h2>BOOK A FREE DEMO</h2>
+  {/* <div className='hello'>
+  
    
-  </div>
+  </div> */}
     
     <div className="column">
+    <h2>BOOK A FREE DEMO</h2>
       <form  action="https://formspree.io/f/xoqzeodl"
   method="POST">
   {/* <form name="contact" method="POST" data-netlify="true"> */}
@@ -310,10 +311,9 @@ font-family:Microsoft Sans Serif;
 h2{
     margin-top:1rem;
     margin-bottom:1rem;
+    font-size:3rem;
 }
-p{
-  font-size:1.5rem;
-}
+
   img{
     width:100%;
   }
@@ -354,15 +354,17 @@ p{
     float: left;
     width: 100%;
     margin-top: 5px;
-    padding: 1.25px;
+    padding: 1.5rem;
     display:block;
   text-align:center;
-  width:450px;
+  width:50rem;
 margin: 0 auto;
+max-height: 100vh;
+    overflow-y: auto;
 
   }
   label{
-    font-size:2rem;
+    font-size:1.5rem;
   }
   /* Clear floats after the columns */
   .row:after {
@@ -378,12 +380,11 @@ margin: 0 auto;
         font-weight:bold;
     }
     .column, input[type=submit] {
-      width: 50%;
+      width: 100%;
       margin-top: 0;
       display:block;
       text-align:center;
-      width:300px;
-    margin: 0 auto;
+
     }
   }
 `;

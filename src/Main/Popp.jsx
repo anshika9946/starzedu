@@ -60,7 +60,7 @@ const Popp = () =>{
   return (
 <Wrapper>
       {showPopup && (
-        <div className="popup">
+        <div className="popup" >
           <div className="box">
             <div className="close" onClick={togglePopup}>
               &times;
@@ -75,7 +75,7 @@ const Popp = () =>{
 const Wrapper = styled.section`
 
 .popup {
-    position: fixed;
+    position: fixed ;
     top: 0;
     left: 0;
     width: 100%;
@@ -85,6 +85,9 @@ const Wrapper = styled.section`
     align-items: center;
     justify-content: center;
     z-index:99999;
+    max-height: 100vh;
+    overflow-y: auto;
+    overflow-x: auto;
   }
   
   .box {
@@ -106,6 +109,23 @@ const Wrapper = styled.section`
   
   .content {
     margin-top: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    .popup {
+      position: relative;
+      top: -2;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index:99999;
+      max-height: 100vh;
+      overflow-y: auto;
+      overflow-x: auto;
+    }
   }
   
 `;
