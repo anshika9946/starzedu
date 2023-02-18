@@ -312,6 +312,8 @@ h2{
     margin-top:1rem;
     margin-bottom:1rem;
     font-size:3rem;
+    background-color: #EAEAEA;
+    padding:1rem;
 }
 
   img{
@@ -345,7 +347,7 @@ h2{
   /* Style the container/contact section */
   .container {
     border-radius: 1.25px;
-    background-color: #f2f2f2;
+   
     padding: 3px;
   }
   
