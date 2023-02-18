@@ -3,8 +3,10 @@ import { NavLink } from "react-router-dom";
 import Navbar from "./Navbar";
 import styled from "styled-components";
 
+
 const Header = () => {
   return (
+    
     <MainHeader>
       <NavLink to="/">
         <img src="./images/logo.png" alt="logo" className="logo" />
