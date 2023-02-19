@@ -14,7 +14,7 @@ const HeroSection = () => {
           <p className="hero-top-data">ABOUT</p>
           <h1 className="hero-heading">STARZEDU CLASSES</h1>
           <p className="hero-para">
-          Staredu Classes is an e-learning platform offering after-school coaching support for kids from SK to Grade 12. We prioritize getting the concepts right over rushing through the curriculum. Our qualified tutors understand your child’s individual needs and kindle their natural curiosity to make the learning experience fun and stress-free.
+          Starzedu Classes is an e-learning platform offering after-school coaching support for kids from SK to Grade 12. We prioritize getting the concepts right over rushing through the curriculum. Our qualified tutors understand your child’s individual needs and kindle their natural curiosity to make the learning experience fun and stress-free.
           </p>
           <div id="container">
           <Button className="btn hireme-btn">
