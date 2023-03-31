@@ -253,7 +253,7 @@ const FormP = () => {
 		<option    value="263">Zimbabwe (+263)</option>    {/* Add more options as needed */}
       </select>
       <label htmlFor="phoneNumber">Phone number:</label>
-      <input type="tel" id="phoneNumber" name="phone" placeholder='Add number'/>
+      <input type="tel" id="phoneNumber" name="phone" placeholder='Add number' required/>
 <br/>
         <label htmlFor="country">Country</label>
         <select id="country" name="country">
