@@ -37,6 +37,7 @@ const FormP = () => {
       <input type="tel" id="phone" name="number" className="input" placeholder="+(country code)(number)" required/> */}
       <label htmlFor="countryCode">Country code:</label>
       <select id="countryCode" name="country code">
+	  <option    value="91">India (+91)</option>
       <option value="213">Algeria (+213)</option>
 		<option  value="376">Andorra (+376)</option>
 		<option  value="244">Angola (+244)</option>
@@ -122,7 +123,6 @@ const FormP = () => {
 		<option    value="852">Hong Kong (+852)</option>
 		<option    value="36">Hungary (+36)</option>
 		<option    value="354">Iceland (+354)</option>
-		<option    value="91">India (+91)</option>
 		<option    value="62">Indonesia (+62)</option>
 		<option    value="98">Iran (+98)</option>
 		<option    value="964">Iraq (+964)</option>
@@ -257,18 +257,19 @@ const FormP = () => {
 <br/>
         <label htmlFor="country">Country</label>
         <select id="country" name="country">
+		<option value="usa">India</option>
           <option value="australia">Australia</option>
           <option value="canada">Canada</option>
           <option value="usa">USA</option>
           <option value="usa">Singapore</option>
           <option value="usa">Dubai</option>
           <option value="usa">Bangladesh</option>
-          <option value="usa">India</option>
           <option value="usa">Others</option>
         </select>
         <br/>
         <label htmlFor="Grade">Grade</label>
         <select id="grade" name="grade">
+		<option value="1"> - </option>
           <option value="1">Grade 1</option>
           <option value="2">Grade 2</option>
           <option value="3">Grade 3</option>
