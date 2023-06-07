@@ -257,14 +257,14 @@ const FormP = () => {
 <br/>
         <label htmlFor="country">Country</label>
         <select id="country" name="country">
-		<option value="usa">India</option>
+		<option value="india">India</option>
           <option value="australia">Australia</option>
           <option value="canada">Canada</option>
           <option value="usa">USA</option>
-          <option value="usa">Singapore</option>
-          <option value="usa">Dubai</option>
-          <option value="usa">Bangladesh</option>
-          <option value="usa">Others</option>
+          <option value="singapore">Singapore</option>
+          <option value="dubai">Dubai</option>
+          <option value="bangladesh">Bangladesh</option>
+          <option value="others">Others</option>
         </select>
         <br/>
         <label htmlFor="Grade">Grade</label>
