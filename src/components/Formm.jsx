@@ -292,6 +292,9 @@ const Formm = () => {
         <label htmlFor="Curriculum">Curriculum</label>
         <input type="text" id="curriculum" name="curriculum" placeholder="Curriculum.." required/>
         <br/>
+		<label htmlFor="subject">Referred By</label>
+        <textarea id="subject" name="requirement" placeholder="name" ></textarea>
+		<br/>
         <label htmlFor="subject">Any Requirement</label>
         <textarea id="subject" name="requirement" placeholder="Write something.." ></textarea>
         <input type="submit" value="Submit" target="_blank" />
